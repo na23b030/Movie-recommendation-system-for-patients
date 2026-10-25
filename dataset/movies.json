@@ -11,7 +11,10 @@
     ],
     "runtime_minutes": 95,
     "short_premise": "A bear adjusts to London life and escapes an animal collector.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -26,7 +29,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -50,7 +53,7 @@
       "value": "PG"
     },
     "sensitivity_tags": {
-      "flashing_strobe_content": "unknown",
+      "flashing_strobe_content": "none",
       "content_warnings": [
         "threat"
       ],
@@ -64,7 +67,7 @@
     },
     "annotation_confidence": {
       "age_rating": "high",
-      "flashing_strobe_content": "unknown",
+      "flashing_strobe_content": "low",
       "content_warnings": "medium",
       "subjective_estimates": "low",
       "accessibility": "unknown"
@@ -87,7 +90,7 @@
       "value": "G"
     },
     "sensitivity_tags": {
-      "flashing_strobe_content": "unknown",
+      "flashing_strobe_content": "confirmed_present",
       "content_warnings": [
         "threat",
         "violence"
@@ -101,8 +104,8 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
-      "flashing_strobe_content": "unknown",
+      "age_rating": "medium",
+      "flashing_strobe_content": "low",
       "content_warnings": "medium",
       "subjective_estimates": "low",
       "accessibility": "unknown"
@@ -139,7 +142,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -179,7 +182,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -203,7 +206,7 @@
       "value": "PG"
     },
     "sensitivity_tags": {
-      "flashing_strobe_content": "unknown",
+      "flashing_strobe_content": "confirmed_present",
       "content_warnings": [
         "emotional_distress",
         "threat",
@@ -218,8 +221,8 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
-      "flashing_strobe_content": "unknown",
+      "age_rating": "medium",
+      "flashing_strobe_content": "medium",
       "content_warnings": "medium",
       "subjective_estimates": "low",
       "accessibility": "unknown"
@@ -256,7 +259,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -295,7 +298,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
+      "age_rating": "medium",
       "flashing_strobe_content": "high",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -314,7 +317,10 @@
     ],
     "runtime_minutes": 104,
     "short_premise": "A young witch learns independence running deliveries.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "G"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "confirmed_present",
       "content_warnings": [
@@ -329,7 +335,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "high",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -367,7 +373,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -406,7 +412,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -430,7 +436,7 @@
       "value": "G"
     },
     "sensitivity_tags": {
-      "flashing_strobe_content": "unknown",
+      "flashing_strobe_content": "confirmed_present",
       "content_warnings": [
         "violence",
         "vomiting"
@@ -444,8 +450,8 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
-      "flashing_strobe_content": "unknown",
+      "age_rating": "medium",
+      "flashing_strobe_content": "medium",
       "content_warnings": "medium",
       "subjective_estimates": "low",
       "accessibility": "unknown"
@@ -482,7 +488,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -500,7 +506,7 @@
       "Musical",
       "Family"
     ],
-    "runtime_minutes": 99,
+    "runtime_minutes": 102,
     "short_premise": "A young woman seeks to save her magical family home.",
     "age_rating": {
       "system": "MPA",
@@ -522,7 +528,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
+      "age_rating": "medium",
       "flashing_strobe_content": "high",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -541,7 +547,10 @@
     ],
     "runtime_minutes": 82,
     "short_premise": "Farm animals undertake a chaotic trip into the city.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -557,7 +566,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -597,7 +606,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -635,7 +644,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -655,9 +664,12 @@
     ],
     "runtime_minutes": 87,
     "short_premise": "An alien arrives at a farm and needs help.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "G"
+    },
     "sensitivity_tags": {
-      "flashing_strobe_content": "unknown",
+      "flashing_strobe_content": "confirmed_present",
       "content_warnings": [
         "threat"
       ],
@@ -670,8 +682,8 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
-      "flashing_strobe_content": "unknown",
+      "age_rating": "medium",
+      "flashing_strobe_content": "low",
       "content_warnings": "medium",
       "subjective_estimates": "low",
       "accessibility": "unknown"
@@ -723,7 +735,10 @@
     ],
     "runtime_minutes": 124,
     "short_premise": "A grieving boy ventures into a strange new realm.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -741,7 +756,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -760,7 +775,10 @@
     ],
     "runtime_minutes": 178,
     "short_premise": "A governess introduces music into an Austrian family.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "G"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -775,7 +793,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -793,9 +811,12 @@
     ],
     "runtime_minutes": 135,
     "short_premise": "Four sisters build lives amid family obligations.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
     "sensitivity_tags": {
-      "flashing_strobe_content": "unknown",
+      "flashing_strobe_content": "none",
       "content_warnings": [
         "bereavement",
         "threat"
@@ -809,8 +830,8 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
-      "flashing_strobe_content": "unknown",
+      "age_rating": "medium",
+      "flashing_strobe_content": "low",
       "content_warnings": "medium",
       "subjective_estimates": "low",
       "accessibility": "unknown"
@@ -834,7 +855,7 @@
       "value": "PG-13"
     },
     "sensitivity_tags": {
-      "flashing_strobe_content": "unknown",
+      "flashing_strobe_content": "confirmed_present",
       "content_warnings": [],
       "violence_intensity_estimate": null,
       "threat_intensity_estimate": null,
@@ -845,8 +866,8 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
-      "flashing_strobe_content": "unknown",
+      "age_rating": "medium",
+      "flashing_strobe_content": "medium",
       "content_warnings": "unknown",
       "subjective_estimates": "low",
       "accessibility": "unknown"
@@ -864,7 +885,10 @@
     ],
     "runtime_minutes": 107,
     "short_premise": "A boy tries to free an orca from captivity.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -879,7 +903,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -903,7 +927,7 @@
       "value": "PG-13"
     },
     "sensitivity_tags": {
-      "flashing_strobe_content": "unknown",
+      "flashing_strobe_content": "confirmed_present",
       "content_warnings": [
         "injury_detail",
         "medical_procedure",
@@ -918,8 +942,8 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
-      "flashing_strobe_content": "unknown",
+      "age_rating": "medium",
+      "flashing_strobe_content": "medium",
       "content_warnings": "medium",
       "subjective_estimates": "low",
       "accessibility": "unknown"
@@ -936,7 +960,10 @@
     ],
     "runtime_minutes": 121,
     "short_premise": "NASA mathematicians overcome barriers during the space race.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -951,7 +978,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -969,7 +996,10 @@
     ],
     "runtime_minutes": 110,
     "short_premise": "A chef rebuilds his career with a food truck.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "R"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [],
@@ -982,7 +1012,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "unknown",
       "subjective_estimates": "low",
@@ -1001,7 +1031,10 @@
     ],
     "runtime_minutes": 118,
     "short_premise": "Two women find purpose through cooking across different eras.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [],
@@ -1014,7 +1047,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "unknown",
       "subjective_estimates": "low",
@@ -1032,7 +1065,10 @@
     ],
     "runtime_minutes": 114,
     "short_premise": "A monarch works with a therapist to manage stammering.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "R"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -1047,7 +1083,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1064,7 +1100,10 @@
     ],
     "runtime_minutes": 113,
     "short_premise": "A father seeks stable work while caring for his son.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -1079,7 +1118,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1098,7 +1137,10 @@
     ],
     "runtime_minutes": 110,
     "short_premise": "An office worker pursues a photographer across the globe.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -1114,7 +1156,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1132,7 +1174,10 @@
     ],
     "runtime_minutes": 110,
     "short_premise": "A mathematician helps decode wartime communications.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -1149,7 +1194,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1189,7 +1234,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
+      "age_rating": "medium",
       "flashing_strobe_content": "high",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1228,7 +1273,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1247,7 +1292,10 @@
     ],
     "runtime_minutes": 142,
     "short_premise": "A specialist enters layered dreams to plant an idea.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -1264,7 +1312,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1283,7 +1331,10 @@
     ],
     "runtime_minutes": 139,
     "short_premise": "A laundrette owner confronts countless alternate lives.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "R"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -1299,7 +1350,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1338,7 +1389,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1357,7 +1408,10 @@
     ],
     "runtime_minutes": 162,
     "short_premise": "Explorers search for a new world beyond Earth.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -1374,7 +1428,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1410,7 +1464,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1429,7 +1483,10 @@
     ],
     "runtime_minutes": 141,
     "short_premise": "An island murder game becomes an actual investigation.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -1446,7 +1503,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1464,7 +1521,10 @@
     ],
     "runtime_minutes": 118,
     "short_premise": "A scientist and family adapt to a progressive illness.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -1481,7 +1541,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1499,7 +1559,10 @@
     ],
     "runtime_minutes": 135,
     "short_premise": "A mathematician lives with mental illness and pursues research.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -1515,7 +1578,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1533,9 +1596,12 @@
     ],
     "runtime_minutes": 121,
     "short_premise": "Two teenagers with cancer build a relationship.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
     "sensitivity_tags": {
-      "flashing_strobe_content": "unknown",
+      "flashing_strobe_content": "none",
       "content_warnings": [
         "bereavement",
         "emotional_distress",
@@ -1550,8 +1616,8 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
-      "flashing_strobe_content": "unknown",
+      "age_rating": "medium",
+      "flashing_strobe_content": "low",
       "content_warnings": "medium",
       "subjective_estimates": "low",
       "accessibility": "unknown"
@@ -1567,7 +1633,10 @@
     ],
     "runtime_minutes": 117,
     "short_premise": "An isolated man seeks reconciliation with his daughter.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "R"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -1584,7 +1653,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1603,7 +1672,10 @@
     ],
     "runtime_minutes": 90,
     "short_premise": "A family remains silent to survive creatures that hunt sound.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -1621,7 +1693,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1639,7 +1711,10 @@
     ],
     "runtime_minutes": 99,
     "short_premise": "Survivors flee creatures in a citywide disaster.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -1656,7 +1731,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1675,7 +1750,10 @@
     ],
     "runtime_minutes": 144,
     "short_premise": "A superhero alters events across diverging timelines.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "confirmed_present",
       "content_warnings": [
@@ -1694,7 +1772,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "high",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1733,7 +1811,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1751,7 +1829,10 @@
     ],
     "runtime_minutes": 169,
     "short_premise": "A former assassin challenges a powerful crime syndicate.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "R"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "confirmed_present",
       "content_warnings": [
@@ -1768,7 +1849,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "high",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1787,7 +1868,10 @@
     ],
     "runtime_minutes": 117,
     "short_premise": "A marginalized comedian descends into violent alienation.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "R"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -1804,7 +1888,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1843,7 +1927,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "high",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1862,7 +1946,10 @@
     ],
     "runtime_minutes": 126,
     "short_premise": "A sorcerer travels through dangerous parallel worlds.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "confirmed_present",
       "content_warnings": [
@@ -1879,7 +1966,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "high",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1898,7 +1985,10 @@
     ],
     "runtime_minutes": 176,
     "short_premise": "A detective vigilante confronts a serial killer.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -1915,7 +2005,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -1934,7 +2024,10 @@
     ],
     "runtime_minutes": 134,
     "short_premise": "A young superhero meets variants from other universes.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -1951,7 +2044,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -2193,73 +2286,6 @@
   },
   {
     "movie_id": "MV062",
-    "title": "Zero Se Restart",
-    "release_year": 2024,
-    "original_language": "Hindi",
-    "genres": [
-      "Documentary",
-      "Drama"
-    ],
-    "runtime_minutes": 88,
-    "short_premise": "A behind-the-scenes documentary about a Hindi drama film.",
-    "age_rating": null,
-    "sensitivity_tags": {
-      "flashing_strobe_content": "unknown",
-      "content_warnings": [
-        "illness",
-        "violence"
-      ],
-      "violence_intensity_estimate": "moderate",
-      "threat_intensity_estimate": null,
-      "plot_complexity_estimate": "simple",
-      "accessibility": {
-        "subtitles_available": "unknown",
-        "audio_description_available": "unknown"
-      }
-    },
-    "annotation_confidence": {
-      "age_rating": "unknown",
-      "flashing_strobe_content": "unknown",
-      "content_warnings": "medium",
-      "subjective_estimates": "low",
-      "accessibility": "unknown"
-    }
-  },
-  {
-    "movie_id": "MV063",
-    "title": "Chef (Hindi)",
-    "release_year": 2017,
-    "original_language": "Hindi",
-    "genres": [
-      "Comedy",
-      "Drama"
-    ],
-    "runtime_minutes": 133,
-    "short_premise": "A chef returns to India and opens a food truck.",
-    "age_rating": null,
-    "sensitivity_tags": {
-      "flashing_strobe_content": "unknown",
-      "content_warnings": [
-        "violence"
-      ],
-      "violence_intensity_estimate": "mild",
-      "threat_intensity_estimate": null,
-      "plot_complexity_estimate": "simple",
-      "accessibility": {
-        "subtitles_available": "unknown",
-        "audio_description_available": "unknown"
-      }
-    },
-    "annotation_confidence": {
-      "age_rating": "unknown",
-      "flashing_strobe_content": "unknown",
-      "content_warnings": "medium",
-      "subjective_estimates": "low",
-      "accessibility": "unknown"
-    }
-  },
-  {
-    "movie_id": "MV064",
     "title": "Asthram",
     "release_year": 2025,
     "original_language": "Tamil",
@@ -2295,220 +2321,7 @@
     }
   },
   {
-    "movie_id": "MV065",
-    "title": "Emergency",
-    "release_year": 2025,
-    "original_language": "Hindi",
-    "genres": [
-      "Drama",
-      "History"
-    ],
-    "runtime_minutes": 145,
-    "short_premise": "A political drama depicts a turbulent period in Indian history.",
-    "age_rating": null,
-    "sensitivity_tags": {
-      "flashing_strobe_content": "confirmed_present",
-      "content_warnings": [
-        "discrimination",
-        "injury_detail",
-        "medical_procedure",
-        "threat",
-        "violence"
-      ],
-      "violence_intensity_estimate": "strong",
-      "threat_intensity_estimate": "strong",
-      "plot_complexity_estimate": "dense",
-      "accessibility": {
-        "subtitles_available": "unknown",
-        "audio_description_available": "unknown"
-      }
-    },
-    "annotation_confidence": {
-      "age_rating": "unknown",
-      "flashing_strobe_content": "high",
-      "content_warnings": "medium",
-      "subjective_estimates": "low",
-      "accessibility": "unknown"
-    }
-  },
-  {
-    "movie_id": "MV066",
-    "title": "Blast",
-    "release_year": 2026,
-    "original_language": "Tamil",
-    "genres": [
-      "Thriller",
-      "Action"
-    ],
-    "runtime_minutes": 142,
-    "short_premise": "An action thriller involving violent confrontations.",
-    "age_rating": null,
-    "sensitivity_tags": {
-      "flashing_strobe_content": "confirmed_present",
-      "content_warnings": [
-        "injury_detail",
-        "threat",
-        "violence"
-      ],
-      "violence_intensity_estimate": "strong",
-      "threat_intensity_estimate": "strong",
-      "plot_complexity_estimate": "moderate",
-      "accessibility": {
-        "subtitles_available": "unknown",
-        "audio_description_available": "unknown"
-      }
-    },
-    "annotation_confidence": {
-      "age_rating": "unknown",
-      "flashing_strobe_content": "high",
-      "content_warnings": "medium",
-      "subjective_estimates": "low",
-      "accessibility": "unknown"
-    }
-  },
-  {
-    "movie_id": "MV067",
-    "title": "Ash",
-    "release_year": 2025,
-    "original_language": "English",
-    "genres": [
-      "Science Fiction",
-      "Horror"
-    ],
-    "runtime_minutes": 95,
-    "short_premise": "An astronaut faces disturbing events on a remote planet.",
-    "age_rating": null,
-    "sensitivity_tags": {
-      "flashing_strobe_content": "confirmed_present",
-      "content_warnings": [
-        "injury_detail",
-        "threat",
-        "violence"
-      ],
-      "violence_intensity_estimate": "strong",
-      "threat_intensity_estimate": "strong",
-      "plot_complexity_estimate": "moderate",
-      "accessibility": {
-        "subtitles_available": "unknown",
-        "audio_description_available": "unknown"
-      }
-    },
-    "annotation_confidence": {
-      "age_rating": "unknown",
-      "flashing_strobe_content": "high",
-      "content_warnings": "medium",
-      "subjective_estimates": "low",
-      "accessibility": "unknown"
-    }
-  },
-  {
-    "movie_id": "MV068",
-    "title": "Turn Me On",
-    "release_year": 2024,
-    "original_language": "English",
-    "genres": [
-      "Science Fiction",
-      "Romance",
-      "Comedy"
-    ],
-    "runtime_minutes": 99,
-    "short_premise": "A couple questions emotion-suppressing social rules.",
-    "age_rating": null,
-    "sensitivity_tags": {
-      "flashing_strobe_content": "confirmed_present",
-      "content_warnings": [
-        "illness",
-        "threat"
-      ],
-      "violence_intensity_estimate": null,
-      "threat_intensity_estimate": "mild",
-      "plot_complexity_estimate": "moderate",
-      "accessibility": {
-        "subtitles_available": "unknown",
-        "audio_description_available": "unknown"
-      }
-    },
-    "annotation_confidence": {
-      "age_rating": "unknown",
-      "flashing_strobe_content": "high",
-      "content_warnings": "medium",
-      "subjective_estimates": "low",
-      "accessibility": "unknown"
-    }
-  },
-  {
-    "movie_id": "MV069",
-    "title": "My Fault: London",
-    "release_year": 2025,
-    "original_language": "English",
-    "genres": [
-      "Romance",
-      "Drama"
-    ],
-    "runtime_minutes": 119,
-    "short_premise": "A young woman navigates a difficult new relationship.",
-    "age_rating": null,
-    "sensitivity_tags": {
-      "flashing_strobe_content": "confirmed_present",
-      "content_warnings": [
-        "domestic_abuse",
-        "injury_detail",
-        "threat"
-      ],
-      "violence_intensity_estimate": "moderate",
-      "threat_intensity_estimate": "moderate",
-      "plot_complexity_estimate": "moderate",
-      "accessibility": {
-        "subtitles_available": "unknown",
-        "audio_description_available": "unknown"
-      }
-    },
-    "annotation_confidence": {
-      "age_rating": "unknown",
-      "flashing_strobe_content": "high",
-      "content_warnings": "medium",
-      "subjective_estimates": "low",
-      "accessibility": "unknown"
-    }
-  },
-  {
-    "movie_id": "MV070",
-    "title": "Black Flies",
-    "release_year": 2023,
-    "original_language": "English",
-    "genres": [
-      "Drama"
-    ],
-    "runtime_minutes": 125,
-    "short_premise": "Emergency responders confront difficult incidents.",
-    "age_rating": null,
-    "sensitivity_tags": {
-      "flashing_strobe_content": "confirmed_present",
-      "content_warnings": [
-        "illness",
-        "injury_detail",
-        "medical_procedure",
-        "suicide",
-        "violence"
-      ],
-      "violence_intensity_estimate": "strong",
-      "threat_intensity_estimate": "moderate",
-      "plot_complexity_estimate": "moderate",
-      "accessibility": {
-        "subtitles_available": "unknown",
-        "audio_description_available": "unknown"
-      }
-    },
-    "annotation_confidence": {
-      "age_rating": "unknown",
-      "flashing_strobe_content": "high",
-      "content_warnings": "medium",
-      "subjective_estimates": "low",
-      "accessibility": "unknown"
-    }
-  },
-  {
-    "movie_id": "MV071",
+    "movie_id": "MV063",
     "title": "The Dark Knight",
     "release_year": 2008,
     "original_language": "English",
@@ -2519,7 +2332,10 @@
     ],
     "runtime_minutes": 146,
     "short_premise": "Batman pursues a criminal mastermind.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
     "sensitivity_tags": {
       "flashing_strobe_content": "unknown",
       "content_warnings": [
@@ -2535,7 +2351,7 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
+      "age_rating": "medium",
       "flashing_strobe_content": "unknown",
       "content_warnings": "medium",
       "subjective_estimates": "low",
@@ -2543,7 +2359,7 @@
     }
   },
   {
-    "movie_id": "MV072",
+    "movie_id": "MV064",
     "title": "Little Women (1994)",
     "release_year": 1994,
     "original_language": "English",
@@ -2553,9 +2369,12 @@
     ],
     "runtime_minutes": 114,
     "short_premise": "A family of sisters grows through loss and change.",
-    "age_rating": null,
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
     "sensitivity_tags": {
-      "flashing_strobe_content": "unknown",
+      "flashing_strobe_content": "none",
       "content_warnings": [],
       "violence_intensity_estimate": null,
       "threat_intensity_estimate": null,
@@ -2566,9 +2385,327 @@
       }
     },
     "annotation_confidence": {
-      "age_rating": "unknown",
-      "flashing_strobe_content": "unknown",
+      "age_rating": "medium",
+      "flashing_strobe_content": "low",
       "content_warnings": "unknown",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV065",
+    "title": "Inside Out",
+    "release_year": 2015,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Family",
+      "Comedy",
+      "Fantasy"
+    ],
+    "runtime_minutes": 95,
+    "short_premise": "Emotions inside an eleven-year-old girl adjust to a difficult family move.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "confirmed_present",
+      "content_warnings": [
+        "emotional_distress",
+        "threat"
+      ],
+      "violence_intensity_estimate": "very_mild",
+      "threat_intensity_estimate": "very_mild",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "medium",
+      "flashing_strobe_content": "medium",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV066",
+    "title": "Up",
+    "release_year": 2009,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Family",
+      "Comedy",
+      "Adventure"
+    ],
+    "runtime_minutes": 92,
+    "short_premise": "A grieving widower flies his home toward South America and befriends a young explorer.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "confirmed_present",
+      "content_warnings": [
+        "bereavement",
+        "threat"
+      ],
+      "violence_intensity_estimate": "mild",
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "medium",
+      "flashing_strobe_content": "medium",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV067",
+    "title": "Frozen",
+    "release_year": 2013,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Family",
+      "Fantasy",
+      "Musical",
+      "Adventure"
+    ],
+    "runtime_minutes": 102,
+    "short_premise": "A princess searches for her sister to end a magical winter.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "mild",
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "medium",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV068",
+    "title": "Finding Dory",
+    "release_year": 2016,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Family",
+      "Comedy",
+      "Adventure"
+    ],
+    "runtime_minutes": 97,
+    "short_premise": "A forgetful blue tang travels to find the family from whom she was separated.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "bereavement",
+        "threat"
+      ],
+      "violence_intensity_estimate": "very_mild",
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "medium",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV069",
+    "title": "Zootopia",
+    "release_year": 2016,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Family",
+      "Comedy",
+      "Adventure",
+      "Mystery"
+    ],
+    "runtime_minutes": 108,
+    "short_premise": "A rabbit police officer and a fox uncover a conspiracy in an animal metropolis.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "discrimination",
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "mild",
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "medium",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV070",
+    "title": "The Addams Family 2",
+    "release_year": 2021,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Family",
+      "Comedy",
+      "Adventure"
+    ],
+    "runtime_minutes": 93,
+    "short_premise": "The Addams family takes a strange road trip to reconnect.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "confirmed_present",
+      "content_warnings": [
+        "rude_humour",
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "mild",
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "medium",
+      "flashing_strobe_content": "high",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV071",
+    "title": "Transformers One",
+    "release_year": 2024,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "runtime_minutes": 104,
+    "short_premise": "Two young robots discover the truth about their planet before becoming rivals.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "confirmed_present",
+      "content_warnings": [
+        "injury_detail",
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "moderate",
+      "threat_intensity_estimate": "moderate",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "medium",
+      "flashing_strobe_content": "high",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV072",
+    "title": "The Incredibles",
+    "release_year": 2004,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Family",
+      "Comedy",
+      "Adventure",
+      "Action"
+    ],
+    "runtime_minutes": 115,
+    "short_premise": "A retired superhero family returns to confront a dangerous robot menace.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "mild",
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "medium",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
       "subjective_estimates": "low",
       "accessibility": "unknown"
     }
