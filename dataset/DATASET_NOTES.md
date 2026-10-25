@@ -10,7 +10,9 @@
 
 **4. `source_records.json`** — Manually curated intermediate inputs needed to reproduce the dataset, including source links and annotation notes. This is not a second independent training dataset.
 
-**5. `DATASET_NOTES.md(This file)`** — Construction, coverage, evidence-quality and missing-data explanations.
+**5. `patient_profiles.json`** - Synthetic patient records generated to test the recommendations sytem
+
+**6. `DATASET_NOTES.md(This file)`** — Construction, coverage, evidence-quality and missing-data explanations.
 
 ## 2. Dataset construction
 
