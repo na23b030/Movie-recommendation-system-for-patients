@@ -16,8 +16,7 @@ VALID_FLASH = {'confirmed_present','none','unknown'}
 VALID_RATING = {
     'MPA': {'G', 'PG', 'PG-13', 'R', 'NC-17'},
     'BBFC': {'U', 'PG', '12A', '12', '15', '18', 'R18'},
-    # Preserve historical UA for films certified before the 2024 introduction
-    # of age-marked UA certificates. Never transform UA to UA 13+ automatically.
+    # of age-marked UA certificates. 
     'CBFC': {'U', 'UA', 'UA 7+', 'UA 13+', 'UA 16+', 'A', 'S'},
 }
 
@@ -59,10 +58,7 @@ for i, r in enumerate(RECORDS, 1):
         return None if r[k] in (None,'','unknown') else r[k]
 
     rating={'system':r['rating_system'],'value':r['age_rating']} if r['age_rating']!='unknown' else None
-    # The source's confidence measures evidence quality, not the rating's
-    # strength or the film's clinical suitability. Explicit override allows
-    # primary CBFC records to differ from secondary film-platform listings.
-    # Unspecified source provenance cannot justify a high confidence label.
+
     rating_conf=(r.get('age_rating_confidence') or 'medium') if rating else 'unknown'
     movie={
         'movie_id':mid,
