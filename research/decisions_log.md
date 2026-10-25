@@ -60,3 +60,36 @@ Captions and audio descriptions make movies more accessible to people with heari
 Decision: Consider subtitle and audio-description availability as movie attributes, recording unknown values where reliable information is unavailable.
 
 Source: W3C Web Accessibility Guidelines
+
+## Final Research Review — 12:35 AM IST
+
+### 8. Movie data sources and limitations
+
+Looked at: TMDB, OMDb, Wikidata, MovieLens, and BBFC.
+
+Found: Wikidata provides openly licensed structured movie information. MovieLens contains movie titles, genres, and user ratings, while BBFC provides more detailed content advice, including violence, threatening scenes, and flashing-content warnings.
+
+Limitations: TMDB's terms restrict AI/ML applications, and MovieLens has restrictions on redistribution. BBFC does not provide every sensitivity attribute needed for the project.
+
+Decision: Investigate Wikidata as the main metadata source and use BBFC records for verified content warnings where available. Check the source terms before collecting or redistributing data. Record the source and relevant movie version for each important annotation.
+
+Sources:
+
+Wikidata
+
+MovieLens
+
+TMDB Terms
+
+BBFC
+
+### 9. Dataset features and annotation strategy
+
+Looked at: Available movie metadata, BBFC content classifications, and the patient sensitivities identified during earlier research.
+
+Found: Genre, runtime, age ratings, and content warnings can support recommendation and filtering. However, features such as plot complexity, pacing, camera movement, and sudden loud sounds are not consistently available as structured data.
+
+Decision: Prioritize basic movie information, age suitability, flashing warnings, violence, distressing themes, and runtime. Consider manually annotating plot complexity and pacing using consistent criteria.
+
+Missing data: Keep uncertain sensitivity tags as unknown rather than assuming the content is safe. Record the tagging method, source, and confidence level. Features with insufficient evidence will not be used for hard safety decisions.
+
