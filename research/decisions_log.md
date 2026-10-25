@@ -61,7 +61,7 @@ Decision: Consider subtitle and audio-description availability as movie attribut
 
 Source: W3C Web Accessibility Guidelines
 
-## Final Research Review — 12:35 AM IST
+## Final Research Review — 12:35 PM IST
 
 ### 8. Movie data sources and limitations
 
