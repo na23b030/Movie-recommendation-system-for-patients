@@ -4,15 +4,15 @@
 
 **1. `movies.json`** — Main 72-movie dataset for the recommendation system. Contains movie ID, title, release year, language, genre, runtime, short premise, documented age rating, sensitivity tags, subjective complexity/intensity estimates, unknown accessibility flags, and short per-attribute annotation confidence summaries.
 
-**2. `annotation_evidence.csv`** — Movie-level evidence and provenance. It links each movie ID to supporting URLs, evidence method, confidence, version/scope, and limitations. It includes the distinction between explicit BBFC positive flashing warnings and crowdsourced reports.
+**2. `annotation_evidence.csv`** — Movie-level evidence and provenance.It contains the sources from which the data is taken. It links each movie ID to supporting URLs, evidence method, confidence, version/scope, and limitations.
 
 **3. `build_dataset.py`** — Standard-library Python script that reconstructs `movies.json` and `annotation_evidence.csv` from the curated source records. It checks data consistency.
 
-**4. `source_records.json`** — Manually curated intermediate inputs needed to reproduce the dataset, including source links and annotation notes. This is not a second independent training dataset.
+**4. `source_records.json`** — Manually curated inputs from the sources needed to reproduce the dataset, including source links and annotation notes. 
 
-**5. `patient_profiles.json`** - Synthetic patient records generated to test the recommendations sytem
+**5. `patient_profiles.json`** - Synthetic patient records generated to test the recommendations sytem.
 
-**6. `DATASET_NOTES.md(This file)`** — Construction, coverage, evidence-quality and missing-data explanations.
+**6. `DATASET_NOTES.md(This file)`** — Dataset file description,construction, coverage, evidence-quality and missing-data explanations.
 
 ## 2. Dataset construction
 
