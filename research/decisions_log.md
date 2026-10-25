@@ -73,15 +73,7 @@ Limitations: TMDB's terms restrict AI/ML applications, and MovieLens has restric
 
 Decision: Investigate Wikidata as the main metadata source and use BBFC records for verified content warnings where available. Check the source terms before collecting or redistributing data. Record the source and relevant movie version for each important annotation.
 
-Sources:
-
-Wikidata
-
-MovieLens
-
-TMDB Terms
-
-BBFC
+Sources:Wikidata, MovieLens, TMDB Terms, BBFC
 
 ### 9. Dataset features and annotation strategy
 
