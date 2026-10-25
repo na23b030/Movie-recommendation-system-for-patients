@@ -1,0 +1,2576 @@
+[
+  {
+    "movie_id": "MV001",
+    "title": "Paddington",
+    "release_year": 2014,
+    "original_language": "English",
+    "genres": [
+      "Family",
+      "Comedy",
+      "Adventure"
+    ],
+    "runtime_minutes": 95,
+    "short_premise": "A bear adjusts to London life and escapes an animal collector.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "threat"
+      ],
+      "violence_intensity_estimate": "very_mild",
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV002",
+    "title": "Paddington 2",
+    "release_year": 2017,
+    "original_language": "English",
+    "genres": [
+      "Family",
+      "Comedy",
+      "Adventure"
+    ],
+    "runtime_minutes": 99,
+    "short_premise": "Paddington searches for a stolen pop-up book.",
+    "age_rating": {
+      "system": "BBFC",
+      "value": "PG"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "threat"
+      ],
+      "violence_intensity_estimate": "very_mild",
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV003",
+    "title": "Toy Story",
+    "release_year": 1995,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "runtime_minutes": 81,
+    "short_premise": "Two toys learn to cooperate after rivalry.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "G"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "mild",
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV004",
+    "title": "Finding Nemo",
+    "release_year": 2003,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ],
+    "runtime_minutes": 100,
+    "short_premise": "A clownfish crosses the ocean searching for his son.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "G"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "bereavement",
+        "threat"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV005",
+    "title": "Coco",
+    "release_year": 2017,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Family",
+      "Music"
+    ],
+    "runtime_minutes": 100,
+    "short_premise": "A boy explores family memory through the Land of the Dead.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "bereavement",
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "mild",
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV006",
+    "title": "Inside Out 2",
+    "release_year": 2024,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "runtime_minutes": 92,
+    "short_premise": "Riley navigates new emotions during adolescence.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "emotional_distress",
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "very_mild",
+      "threat_intensity_estimate": "very_mild",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV007",
+    "title": "Moana",
+    "release_year": 2016,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "runtime_minutes": 108,
+    "short_premise": "A young navigator journeys to restore her island.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "threat"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV008",
+    "title": "The Wild Robot",
+    "release_year": 2024,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "runtime_minutes": 101,
+    "short_premise": "A stranded robot befriends animals on an island.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "confirmed_present",
+      "content_warnings": [
+        "bereavement",
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "mild",
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "high",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV009",
+    "title": "Kiki's Delivery Service",
+    "release_year": 1989,
+    "original_language": "Japanese",
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Adventure"
+    ],
+    "runtime_minutes": 104,
+    "short_premise": "A young witch learns independence running deliveries.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "confirmed_present",
+      "content_warnings": [
+        "threat"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "high",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV010",
+    "title": "Spirited Away",
+    "release_year": 2001,
+    "original_language": "Japanese",
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Adventure"
+    ],
+    "runtime_minutes": 125,
+    "short_premise": "A girl enters a spirit world and seeks to rescue her parents.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "injury_detail",
+        "threat"
+      ],
+      "violence_intensity_estimate": "mild",
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV011",
+    "title": "The Lego Movie",
+    "release_year": 2014,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Action",
+      "Comedy",
+      "Family"
+    ],
+    "runtime_minutes": 100,
+    "short_premise": "A construction toy joins an unlikely resistance.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "mild",
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV012",
+    "title": "Ratatouille",
+    "release_year": 2007,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "runtime_minutes": 106,
+    "short_premise": "A culinary-minded rat helps a young chef in Paris.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "G"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "violence",
+        "vomiting"
+      ],
+      "violence_intensity_estimate": "mild",
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV013",
+    "title": "WALL-E",
+    "release_year": 2008,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Science Fiction",
+      "Family"
+    ],
+    "runtime_minutes": 95,
+    "short_premise": "A waste-collecting robot travels beyond abandoned Earth.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "G"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "very_mild",
+      "threat_intensity_estimate": "very_mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV014",
+    "title": "Encanto",
+    "release_year": 2021,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Musical",
+      "Family"
+    ],
+    "runtime_minutes": 99,
+    "short_premise": "A young woman seeks to save her magical family home.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "confirmed_present",
+      "content_warnings": [
+        "bereavement",
+        "emotional_distress",
+        "threat"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "high",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV015",
+    "title": "Shaun the Sheep Movie",
+    "release_year": 2015,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "runtime_minutes": 82,
+    "short_premise": "Farm animals undertake a chaotic trip into the city.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "mild",
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV016",
+    "title": "Luca",
+    "release_year": 2021,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "runtime_minutes": 95,
+    "short_premise": "Two sea monsters spend a summer posing as humans.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "bullying",
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "very_mild",
+      "threat_intensity_estimate": "very_mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV017",
+    "title": "Sing",
+    "release_year": 2016,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Music",
+      "Comedy",
+      "Family"
+    ],
+    "runtime_minutes": 108,
+    "short_premise": "Animals compete in a singing contest.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "threat"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": "very_mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV018",
+    "title": "A Shaun the Sheep Movie: Farmageddon",
+    "release_year": 2019,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Science Fiction",
+      "Family"
+    ],
+    "runtime_minutes": 87,
+    "short_premise": "An alien arrives at a farm and needs help.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "threat"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": "very_mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV019",
+    "title": "The Snail and the Whale",
+    "release_year": 2019,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Family",
+      "Adventure"
+    ],
+    "runtime_minutes": 27,
+    "short_premise": "A tiny snail travels with a whale.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "threat"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": "very_mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV020",
+    "title": "The Boy and the Heron",
+    "release_year": 2023,
+    "original_language": "Japanese",
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Adventure"
+    ],
+    "runtime_minutes": 124,
+    "short_premise": "A grieving boy ventures into a strange new realm.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "bereavement",
+        "injury_detail",
+        "self_harm",
+        "threat"
+      ],
+      "violence_intensity_estimate": "mild",
+      "threat_intensity_estimate": "moderate",
+      "plot_complexity_estimate": "dense",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV021",
+    "title": "The Sound of Music",
+    "release_year": 1965,
+    "original_language": "English",
+    "genres": [
+      "Musical",
+      "Drama",
+      "Family"
+    ],
+    "runtime_minutes": 178,
+    "short_premise": "A governess introduces music into an Austrian family.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "threat"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": "very_mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV022",
+    "title": "Little Women",
+    "release_year": 2019,
+    "original_language": "English",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "runtime_minutes": 135,
+    "short_premise": "Four sisters build lives amid family obligations.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "bereavement",
+        "threat"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": "very_mild",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV023",
+    "title": "La La Land",
+    "release_year": 2016,
+    "original_language": "English",
+    "genres": [
+      "Musical",
+      "Romance",
+      "Comedy",
+      "Drama"
+    ],
+    "runtime_minutes": 128,
+    "short_premise": "Two artists navigate love and ambition in Los Angeles.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "unknown",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV024",
+    "title": "Free Willy",
+    "release_year": 1993,
+    "original_language": "English",
+    "genres": [
+      "Family",
+      "Drama",
+      "Adventure"
+    ],
+    "runtime_minutes": 107,
+    "short_premise": "A boy tries to free an orca from captivity.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "threat"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV025",
+    "title": "The Martian",
+    "release_year": 2015,
+    "original_language": "English",
+    "genres": [
+      "Science Fiction",
+      "Drama",
+      "Adventure"
+    ],
+    "runtime_minutes": 142,
+    "short_premise": "An astronaut survives alone on Mars while rescue is planned.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "injury_detail",
+        "medical_procedure",
+        "threat"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": "moderate",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV026",
+    "title": "Hidden Figures",
+    "release_year": 2016,
+    "original_language": "English",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "runtime_minutes": 121,
+    "short_premise": "NASA mathematicians overcome barriers during the space race.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "discrimination"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV027",
+    "title": "Chef",
+    "release_year": 2014,
+    "original_language": "English",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "runtime_minutes": 110,
+    "short_premise": "A chef rebuilds his career with a food truck.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "unknown",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV028",
+    "title": "Julie & Julia",
+    "release_year": 2009,
+    "original_language": "English",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "runtime_minutes": 118,
+    "short_premise": "Two women find purpose through cooking across different eras.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "unknown",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV029",
+    "title": "The King's Speech",
+    "release_year": 2010,
+    "original_language": "English",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "runtime_minutes": 114,
+    "short_premise": "A monarch works with a therapist to manage stammering.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "medical_care"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV030",
+    "title": "The Pursuit of Happyness",
+    "release_year": 2006,
+    "original_language": "English",
+    "genres": [
+      "Drama"
+    ],
+    "runtime_minutes": 113,
+    "short_premise": "A father seeks stable work while caring for his son.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "emotional_distress"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV031",
+    "title": "The Secret Life of Walter Mitty",
+    "release_year": 2013,
+    "original_language": "English",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "runtime_minutes": 110,
+    "short_premise": "An office worker pursues a photographer across the globe.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "moderate",
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV032",
+    "title": "The Imitation Game",
+    "release_year": 2014,
+    "original_language": "English",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "runtime_minutes": 110,
+    "short_premise": "A mathematician helps decode wartime communications.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "bullying",
+        "discrimination",
+        "medical_procedure"
+      ],
+      "violence_intensity_estimate": "mild",
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV033",
+    "title": "Dune: Part Two",
+    "release_year": 2024,
+    "original_language": "English",
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
+    "runtime_minutes": 166,
+    "short_premise": "A young leader navigates prophecy, conflict and rebellion.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "confirmed_present",
+      "content_warnings": [
+        "bereavement",
+        "injury_detail",
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "moderate",
+      "threat_intensity_estimate": "moderate",
+      "plot_complexity_estimate": "dense",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "high",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV034",
+    "title": "Knives Out",
+    "release_year": 2019,
+    "original_language": "English",
+    "genres": [
+      "Mystery",
+      "Crime",
+      "Drama"
+    ],
+    "runtime_minutes": 125,
+    "short_premise": "A detective investigates the death of a wealthy writer.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "injury_detail",
+        "medical_drug_use",
+        "suicide"
+      ],
+      "violence_intensity_estimate": "moderate",
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "dense",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV035",
+    "title": "Inception",
+    "release_year": 2010,
+    "original_language": "English",
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Thriller"
+    ],
+    "runtime_minutes": 142,
+    "short_premise": "A specialist enters layered dreams to plant an idea.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "suicide",
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "moderate",
+      "threat_intensity_estimate": "moderate",
+      "plot_complexity_estimate": "dense",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV036",
+    "title": "Everything Everywhere All at Once",
+    "release_year": 2022,
+    "original_language": "English",
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Comedy"
+    ],
+    "runtime_minutes": 139,
+    "short_premise": "A laundrette owner confronts countless alternate lives.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "injury_detail",
+        "violence"
+      ],
+      "violence_intensity_estimate": "strong",
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "dense",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV037",
+    "title": "Oppenheimer",
+    "release_year": 2023,
+    "original_language": "English",
+    "genres": [
+      "Drama",
+      "History",
+      "Biography"
+    ],
+    "runtime_minutes": 180,
+    "short_premise": "A physicist directs wartime research and faces consequences.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "R"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "bereavement",
+        "injury_detail",
+        "threat"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": "moderate",
+      "plot_complexity_estimate": "dense",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV038",
+    "title": "Interstellar",
+    "release_year": 2014,
+    "original_language": "English",
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Drama"
+    ],
+    "runtime_minutes": 162,
+    "short_premise": "Explorers search for a new world beyond Earth.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "bereavement",
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "moderate",
+      "threat_intensity_estimate": "moderate",
+      "plot_complexity_estimate": "dense",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV039",
+    "title": "Barbie",
+    "release_year": 2023,
+    "original_language": "English",
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "runtime_minutes": 114,
+    "short_premise": "A doll questions her identity in the human world.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "PG-13"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "discrimination"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV040",
+    "title": "Glass Onion: A Knives Out Mystery",
+    "release_year": 2022,
+    "original_language": "English",
+    "genres": [
+      "Mystery",
+      "Comedy",
+      "Thriller"
+    ],
+    "runtime_minutes": 141,
+    "short_premise": "An island murder game becomes an actual investigation.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "injury_detail",
+        "suicide",
+        "violence"
+      ],
+      "violence_intensity_estimate": "moderate",
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "dense",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV041",
+    "title": "The Theory of Everything",
+    "release_year": 2014,
+    "original_language": "English",
+    "genres": [
+      "Drama",
+      "Biography"
+    ],
+    "runtime_minutes": 118,
+    "short_premise": "A scientist and family adapt to a progressive illness.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "emotional_distress",
+        "illness",
+        "medical_procedure"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV042",
+    "title": "A Beautiful Mind",
+    "release_year": 2001,
+    "original_language": "English",
+    "genres": [
+      "Drama",
+      "Biography"
+    ],
+    "runtime_minutes": 135,
+    "short_premise": "A mathematician lives with mental illness and pursues research.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "medical_procedure",
+        "mental_health"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "dense",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV043",
+    "title": "The Fault in Our Stars",
+    "release_year": 2014,
+    "original_language": "English",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "runtime_minutes": 121,
+    "short_premise": "Two teenagers with cancer build a relationship.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "bereavement",
+        "emotional_distress",
+        "illness"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV044",
+    "title": "The Whale",
+    "release_year": 2022,
+    "original_language": "English",
+    "genres": [
+      "Drama"
+    ],
+    "runtime_minutes": 117,
+    "short_premise": "An isolated man seeks reconciliation with his daughter.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "emotional_distress",
+        "illness",
+        "suicide"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV045",
+    "title": "A Quiet Place",
+    "release_year": 2018,
+    "original_language": "English",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Drama"
+    ],
+    "runtime_minutes": 90,
+    "short_premise": "A family remains silent to survive creatures that hunt sound.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "childbirth",
+        "injury_detail",
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "moderate",
+      "threat_intensity_estimate": "strong",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV046",
+    "title": "A Quiet Place: Day One",
+    "release_year": 2024,
+    "original_language": "English",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "runtime_minutes": 99,
+    "short_premise": "Survivors flee creatures in a citywide disaster.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "injury_detail",
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "moderate",
+      "threat_intensity_estimate": "strong",
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV047",
+    "title": "The Flash",
+    "release_year": 2023,
+    "original_language": "English",
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "runtime_minutes": 144,
+    "short_premise": "A superhero alters events across diverging timelines.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "confirmed_present",
+      "content_warnings": [
+        "bereavement",
+        "injury_detail",
+        "threat",
+        "violence",
+        "vomiting"
+      ],
+      "violence_intensity_estimate": "moderate",
+      "threat_intensity_estimate": "moderate",
+      "plot_complexity_estimate": "dense",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "high",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV048",
+    "title": "John Wick",
+    "release_year": 2014,
+    "original_language": "English",
+    "genres": [
+      "Action",
+      "Thriller",
+      "Crime"
+    ],
+    "runtime_minutes": 101,
+    "short_premise": "A retired assassin pursues vengeance.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "R"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "bereavement",
+        "injury_detail",
+        "violence"
+      ],
+      "violence_intensity_estimate": "strong",
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV049",
+    "title": "John Wick: Chapter 4",
+    "release_year": 2023,
+    "original_language": "English",
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "runtime_minutes": 169,
+    "short_premise": "A former assassin challenges a powerful crime syndicate.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "confirmed_present",
+      "content_warnings": [
+        "injury_detail",
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "strong",
+      "threat_intensity_estimate": "moderate",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "high",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV050",
+    "title": "Joker",
+    "release_year": 2019,
+    "original_language": "English",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "runtime_minutes": 117,
+    "short_premise": "A marginalized comedian descends into violent alienation.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "injury_detail",
+        "mental_health",
+        "violence"
+      ],
+      "violence_intensity_estimate": "strong",
+      "threat_intensity_estimate": "moderate",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV051",
+    "title": "Get Out",
+    "release_year": 2017,
+    "original_language": "English",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "runtime_minutes": 100,
+    "short_premise": "A man becomes suspicious during a visit to his partner’s family.",
+    "age_rating": {
+      "system": "MPA",
+      "value": "R"
+    },
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "injury_detail",
+        "medical_procedure",
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "strong",
+      "threat_intensity_estimate": "moderate",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "high",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV052",
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "release_year": 2022,
+    "original_language": "English",
+    "genres": [
+      "Fantasy",
+      "Horror",
+      "Adventure"
+    ],
+    "runtime_minutes": 126,
+    "short_premise": "A sorcerer travels through dangerous parallel worlds.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "confirmed_present",
+      "content_warnings": [
+        "injury_detail",
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "moderate",
+      "threat_intensity_estimate": "moderate",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "high",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV053",
+    "title": "The Batman",
+    "release_year": 2022,
+    "original_language": "English",
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Action"
+    ],
+    "runtime_minutes": 176,
+    "short_premise": "A detective vigilante confronts a serial killer.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "suicide",
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "strong",
+      "threat_intensity_estimate": "strong",
+      "plot_complexity_estimate": "dense",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV054",
+    "title": "Spider-Man: Across the Spider-Verse",
+    "release_year": 2023,
+    "original_language": "English",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "runtime_minutes": 134,
+    "short_premise": "A young superhero meets variants from other universes.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "injury_detail",
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "mild",
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "dense",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV055",
+    "title": "Dangal",
+    "release_year": 2016,
+    "original_language": "Hindi",
+    "genres": [
+      "Drama",
+      "Sport",
+      "Biography"
+    ],
+    "runtime_minutes": 161,
+    "short_premise": "A former wrestler trains his daughters in competition.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "violence"
+      ],
+      "violence_intensity_estimate": "mild",
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV056",
+    "title": "3 Idiots",
+    "release_year": 2009,
+    "original_language": "Hindi",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "runtime_minutes": 171,
+    "short_premise": "Three engineering students confront intense academic expectations.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "emotional_distress",
+        "injury_detail",
+        "suicide"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV057",
+    "title": "12th Fail",
+    "release_year": 2023,
+    "original_language": "Hindi",
+    "genres": [
+      "Drama",
+      "Biography"
+    ],
+    "runtime_minutes": 146,
+    "short_premise": "A young man works toward a competitive civil-service exam.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "bereavement",
+        "domestic_abuse",
+        "violence"
+      ],
+      "violence_intensity_estimate": "moderate",
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV058",
+    "title": "English Vinglish",
+    "release_year": 2012,
+    "original_language": "Hindi",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "runtime_minutes": 128,
+    "short_premise": "A homemaker joins an English-language class abroad.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "unknown",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV059",
+    "title": "Taare Zameen Par",
+    "release_year": 2007,
+    "original_language": "Hindi",
+    "genres": [
+      "Drama",
+      "Family"
+    ],
+    "runtime_minutes": 165,
+    "short_premise": "A teacher recognizes a child’s learning difficulty.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "bullying",
+        "emotional_distress"
+      ],
+      "violence_intensity_estimate": "mild",
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV060",
+    "title": "96",
+    "release_year": 2018,
+    "original_language": "Tamil",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "runtime_minutes": 158,
+    "short_premise": "Former schoolmates revisit an earlier romance.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "unknown",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV061",
+    "title": "Laapataa Ladies",
+    "release_year": 2024,
+    "original_language": "Hindi",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "runtime_minutes": 124,
+    "short_premise": "Two brides become separated during a journey.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "domestic_abuse"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV062",
+    "title": "Zero Se Restart",
+    "release_year": 2024,
+    "original_language": "Hindi",
+    "genres": [
+      "Documentary",
+      "Drama"
+    ],
+    "runtime_minutes": 88,
+    "short_premise": "A behind-the-scenes documentary about a Hindi drama film.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "illness",
+        "violence"
+      ],
+      "violence_intensity_estimate": "moderate",
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV063",
+    "title": "Chef (Hindi)",
+    "release_year": 2017,
+    "original_language": "Hindi",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "runtime_minutes": 133,
+    "short_premise": "A chef returns to India and opens a food truck.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "violence"
+      ],
+      "violence_intensity_estimate": "mild",
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "simple",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV064",
+    "title": "Asthram",
+    "release_year": 2025,
+    "original_language": "Tamil",
+    "genres": [
+      "Thriller",
+      "Crime"
+    ],
+    "runtime_minutes": 111,
+    "short_premise": "A police investigation explores a string of violent deaths.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "confirmed_present",
+      "content_warnings": [
+        "bereavement",
+        "injury_detail",
+        "suicide",
+        "violence"
+      ],
+      "violence_intensity_estimate": "strong",
+      "threat_intensity_estimate": "moderate",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "high",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV065",
+    "title": "Emergency",
+    "release_year": 2025,
+    "original_language": "Hindi",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "runtime_minutes": 145,
+    "short_premise": "A political drama depicts a turbulent period in Indian history.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "confirmed_present",
+      "content_warnings": [
+        "discrimination",
+        "injury_detail",
+        "medical_procedure",
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "strong",
+      "threat_intensity_estimate": "strong",
+      "plot_complexity_estimate": "dense",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "high",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV066",
+    "title": "Blast",
+    "release_year": 2026,
+    "original_language": "Tamil",
+    "genres": [
+      "Thriller",
+      "Action"
+    ],
+    "runtime_minutes": 142,
+    "short_premise": "An action thriller involving violent confrontations.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "confirmed_present",
+      "content_warnings": [
+        "injury_detail",
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "strong",
+      "threat_intensity_estimate": "strong",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "high",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV067",
+    "title": "Ash",
+    "release_year": 2025,
+    "original_language": "English",
+    "genres": [
+      "Science Fiction",
+      "Horror"
+    ],
+    "runtime_minutes": 95,
+    "short_premise": "An astronaut faces disturbing events on a remote planet.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "confirmed_present",
+      "content_warnings": [
+        "injury_detail",
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "strong",
+      "threat_intensity_estimate": "strong",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "high",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV068",
+    "title": "Turn Me On",
+    "release_year": 2024,
+    "original_language": "English",
+    "genres": [
+      "Science Fiction",
+      "Romance",
+      "Comedy"
+    ],
+    "runtime_minutes": 99,
+    "short_premise": "A couple questions emotion-suppressing social rules.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "confirmed_present",
+      "content_warnings": [
+        "illness",
+        "threat"
+      ],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": "mild",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "high",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV069",
+    "title": "My Fault: London",
+    "release_year": 2025,
+    "original_language": "English",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "runtime_minutes": 119,
+    "short_premise": "A young woman navigates a difficult new relationship.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "confirmed_present",
+      "content_warnings": [
+        "domestic_abuse",
+        "injury_detail",
+        "threat"
+      ],
+      "violence_intensity_estimate": "moderate",
+      "threat_intensity_estimate": "moderate",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "high",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV070",
+    "title": "Black Flies",
+    "release_year": 2023,
+    "original_language": "English",
+    "genres": [
+      "Drama"
+    ],
+    "runtime_minutes": 125,
+    "short_premise": "Emergency responders confront difficult incidents.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "confirmed_present",
+      "content_warnings": [
+        "illness",
+        "injury_detail",
+        "medical_procedure",
+        "suicide",
+        "violence"
+      ],
+      "violence_intensity_estimate": "strong",
+      "threat_intensity_estimate": "moderate",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "high",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV071",
+    "title": "The Dark Knight",
+    "release_year": 2008,
+    "original_language": "English",
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "runtime_minutes": 146,
+    "short_premise": "Batman pursues a criminal mastermind.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [
+        "threat",
+        "violence"
+      ],
+      "violence_intensity_estimate": "strong",
+      "threat_intensity_estimate": "strong",
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "medium",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  },
+  {
+    "movie_id": "MV072",
+    "title": "Little Women (1994)",
+    "release_year": 1994,
+    "original_language": "English",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "runtime_minutes": 114,
+    "short_premise": "A family of sisters grows through loss and change.",
+    "age_rating": null,
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "content_warnings": [],
+      "violence_intensity_estimate": null,
+      "threat_intensity_estimate": null,
+      "plot_complexity_estimate": "moderate",
+      "accessibility": {
+        "subtitles_available": "unknown",
+        "audio_description_available": "unknown"
+      }
+    },
+    "annotation_confidence": {
+      "age_rating": "unknown",
+      "flashing_strobe_content": "unknown",
+      "content_warnings": "unknown",
+      "subjective_estimates": "low",
+      "accessibility": "unknown"
+    }
+  }
+]
