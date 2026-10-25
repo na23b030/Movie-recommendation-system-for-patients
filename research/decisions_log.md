@@ -52,7 +52,11 @@ Decision: Include content-warning tags and allow patients to specify themes they
 Source: BBFC
 
 ### 7. Accessibility
+
 Researched: W3C guidance on captions and audio descriptions.
+
 Captions and audio descriptions make movies more accessible to people with hearing or visual difficulties. Availability may differ between platforms and movie versions.
+
 Decision: Consider subtitle and audio-description availability as movie attributes, recording unknown values where reliable information is unavailable.
+
 Source: W3C Web Accessibility Guidelines
