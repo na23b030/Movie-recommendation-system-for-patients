@@ -1,0 +1,162 @@
+[
+  {
+    "rule_id": "R-01",
+    "patient_attribute": "known_sensitivities contains 'photosensitive_seizure_trigger'",
+    "content_attribute": "sensitivity_tags.flashing_strobe_content == 'confirmed_present'",
+    "severity": "hard_exclude",
+    "penalty_weight": null,
+    "justification_type": "sourced",
+    "source": "S01: Epilepsy Foundation",
+    "notes": "Certain flashes/patterns can trigger seizures in a person with reported photosensitivity. A movie-specific veto is our cautious implementation; warning intensity and playback cut are not verified."
+  },
+  {
+    "rule_id": "R-02",
+    "patient_attribute": "known_sensitivities contains 'photosensitive_seizure_trigger'",
+    "content_attribute": "sensitivity_tags.flashing_strobe_content in ['unknown', 'none']",
+    "severity": "hard_exclude",
+    "penalty_weight": null,
+    "justification_type": "inferred",
+    "source": "S01: Epilepsy Foundation (context)",
+    "notes": "Evidence-insufficient exclusion, NOT a claim that the film contains flashing. Current 'none' values are only low-confidence community reports, not version-verified clearance. The source does not require this unknown-data policy."
+  },
+  {
+    "rule_id": "R-03",
+    "patient_attribute": "age < 18",
+    "content_attribute": "age_rating in ['MPA:NC-17', 'BBFC:18', 'BBFC:R18', 'CBFC:A']",
+    "severity": "hard_exclude",
+    "penalty_weight": null,
+    "justification_type": "sourced",
+    "source": "S02: MPA; S03: BBFC; S04: CBFC",
+    "notes": "These named classifications are adult-restricted in their respective systems. Apply only to the published classification and retain its country/version; rating alone does not guarantee general suitability."
+  },
+  {
+    "rule_id": "R-04",
+    "patient_attribute": "age < 17",
+    "content_attribute": "age_rating == 'MPA:R'",
+    "severity": "hard_exclude",
+    "penalty_weight": null,
+    "justification_type": "inferred",
+    "source": "S02: MPA (context)",
+    "notes": "MPA R ordinarily permits under-17 viewers with an adult. Because guardian information was deliberately removed, this prototype chooses the stricter under-17 veto; it is NOT an absolute legal prohibition."
+  },
+  {
+    "rule_id": "R-05",
+    "patient_attribute": "age < 15",
+    "content_attribute": "age_rating == 'BBFC:15'",
+    "severity": "hard_exclude",
+    "penalty_weight": null,
+    "justification_type": "sourced",
+    "source": "S03: BBFC",
+    "notes": "BBFC does not permit viewers under 15 for the named cinema/home classification. Kept for future catalog additions although current films do not have this rating."
+  },
+  {
+    "rule_id": "R-06",
+    "patient_attribute": "age < 12",
+    "content_attribute": "age_rating in ['BBFC:12', 'BBFC:12A']",
+    "severity": "hard_exclude",
+    "penalty_weight": null,
+    "justification_type": "inferred",
+    "source": "S03: BBFC (context)",
+    "notes": "BBFC 12 prohibits under-12 home viewing; 12A cinema allows under-12 viewers with adults. Without guardian/release-platform fields the prototype conservatively excludes both, explicitly an inference for 12A."
+  },
+  {
+    "rule_id": "R-07",
+    "patient_attribute": "age < 13",
+    "content_attribute": "age_rating == 'MPA:PG-13'",
+    "severity": "soft_penalty",
+    "penalty_weight": -0.14,
+    "justification_type": "inferred",
+    "source": "S02: MPA (context)",
+    "notes": "MPA strongly cautions parents about material for children under 13; it is an advisory, not an automatic ban. The -0.14 score weight is our adjustable design choice."
+  },
+  {
+    "rule_id": "R-08",
+    "patient_attribute": "age < 12",
+    "content_attribute": "age_rating == 'CBFC:UA'",
+    "severity": "soft_penalty",
+    "penalty_weight": -0.1,
+    "justification_type": "inferred",
+    "source": "S04: CBFC (context)",
+    "notes": "Legacy UA calls for parental guidance for children below 12; the original UA is not silently converted into a newer UA 7+/13+/16+ band. Weight is a heuristic."
+  },
+  {
+    "rule_id": "R-09",
+    "patient_attribute": "content_avoidances is nonempty",
+    "content_attribute": "sensitivity_tags.content_warnings intersects content_avoidances",
+    "severity": "hard_exclude",
+    "penalty_weight": null,
+    "justification_type": "inferred",
+    "source": "S05: VA PTSD Center (context)",
+    "notes": "Honor the person's explicit refusal when a corresponding positive warning exists (e.g., bereavement, self_harm, medical_procedure). This is an opt-in patient-choice policy, not a blanket clinical prohibition. Missing warning tags do not prove absence."
+  },
+  {
+    "rule_id": "R-10",
+    "patient_attribute": "current_symptoms contains 'severe_fatigue'",
+    "content_attribute": "runtime_minutes > 120",
+    "severity": "soft_penalty",
+    "penalty_weight": -0.17,
+    "justification_type": "inferred",
+    "source": "S06: NCI fatigue; S11: NCI side effects",
+    "notes": "Fatigue can reduce energy, but no medical source sets a 120-minute movie cutoff. The threshold and -0.17 weight are our conservative comfort heuristics, not treatment advice."
+  },
+  {
+    "rule_id": "R-11",
+    "patient_attribute": "current_symptoms contains 'concentration_difficulty'",
+    "content_attribute": "sensitivity_tags.plot_complexity_estimate == 'dense'",
+    "severity": "soft_penalty",
+    "penalty_weight": -0.12,
+    "justification_type": "inferred",
+    "source": "S07: NCI concentration",
+    "notes": "Cognitive difficulty may affect sustained attention; a preference for a simpler plot is an inference. All complexity labels are subjective and LOW-confidence; -0.12 is intentionally modest."
+  },
+  {
+    "rule_id": "R-12",
+    "patient_attribute": "current_symptoms contains 'nausea'",
+    "content_attribute": "sensitivity_tags.content_warnings contains 'vomiting'",
+    "severity": "soft_penalty",
+    "penalty_weight": -0.16,
+    "justification_type": "inferred",
+    "source": "S08: NHS migraine; S11: NCI side effects",
+    "notes": "The sources discuss nausea but do NOT state that vomiting scenes worsen it. The movie-content link and -0.16 penalty are our explicit comfort inference."
+  },
+  {
+    "rule_id": "R-13",
+    "patient_attribute": "known_sensitivities contains 'light_sensitivity'",
+    "content_attribute": "sensitivity_tags.flashing_strobe_content == 'confirmed_present'",
+    "severity": "soft_penalty",
+    "penalty_weight": -0.24,
+    "justification_type": "inferred",
+    "source": "S08: NHS migraine; S01: Epilepsy Foundation",
+    "notes": "Light sensitivity may cause discomfort but is NOT the same as a photosensitive seizure trigger. This is a soft penalty unless the patient separately reports the seizure trigger."
+  },
+  {
+    "rule_id": "R-14",
+    "patient_attribute": "known_sensitivities contains 'fear_distress_sensitivity'",
+    "content_attribute": "sensitivity_tags.threat_intensity_estimate in ['moderate', 'strong']",
+    "severity": "soft_penalty",
+    "penalty_weight": -0.1,
+    "justification_type": "inferred",
+    "source": "S05: VA PTSD Center (indirect)",
+    "notes": "Threat scenes may be unwelcome to someone who reports fear sensitivity. Threat intensity is a LOW-confidence curator estimate, so the weight is intentionally small; this is not a source-stated movie rule."
+  },
+  {
+    "rule_id": "R-15",
+    "patient_attribute": "accessibility_requirements contains 'subtitles'",
+    "content_attribute": "sensitivity_tags.accessibility.subtitles_available != true",
+    "severity": "hard_exclude",
+    "penalty_weight": null,
+    "justification_type": "inferred",
+    "source": "S09: W3C WAI captions",
+    "notes": "Do not promise a required viewing feature without verified availability. Current entries are all unknown; exclude as EVIDENCE INSUFFICIENT, not proven unavailable. Subtitles are not automatically equivalent to full SDH captions."
+  },
+  {
+    "rule_id": "R-16",
+    "patient_attribute": "accessibility_requirements contains 'audio_description'",
+    "content_attribute": "sensitivity_tags.accessibility.audio_description_available != true",
+    "severity": "hard_exclude",
+    "penalty_weight": null,
+    "justification_type": "inferred",
+    "source": "S10: W3C WAI audio description",
+    "notes": "Do not promise required audio description with unknown provider/cut/track availability. Exclude as EVIDENCE INSUFFICIENT, not proven unavailable."
+  }
+]
