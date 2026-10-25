@@ -1,0 +1,290 @@
+[
+  {
+    "profile_id": "P001",
+    "scenario": "Pediatric oncology, fatigue, photosensitive seizures",
+    "age": 9,
+    "diagnosis_context": "pediatric_oncology",
+    "treatment_phase": "active_high_fatigue",
+    "known_sensitivities": [
+      "photosensitive_seizure_trigger"
+    ],
+    "current_symptoms": [
+      "severe_fatigue"
+    ],
+    "content_avoidances": [],
+    "preferred_genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "accessibility_requirements": []
+  },
+  {
+    "profile_id": "P002",
+    "scenario": "Pediatric treatment, mild fatigue without photosensitivity",
+    "age": 11,
+    "diagnosis_context": "pediatric_oncology",
+    "treatment_phase": "active_treatment",
+    "known_sensitivities": [
+      "fear_distress_sensitivity"
+    ],
+    "current_symptoms": [
+      "mild_fatigue"
+    ],
+    "content_avoidances": [],
+    "preferred_genres": [
+      "Animation",
+      "Family",
+      "Comedy"
+    ],
+    "accessibility_requirements": []
+  },
+  {
+    "profile_id": "P003",
+    "scenario": "Adolescent hemodialysis, no reported sensitivities",
+    "age": 16,
+    "diagnosis_context": "chronic_kidney_disease",
+    "treatment_phase": "hemodialysis_session",
+    "known_sensitivities": [],
+    "current_symptoms": [],
+    "content_avoidances": [],
+    "preferred_genres": [
+      "Adventure",
+      "Action",
+      "Animation"
+    ],
+    "accessibility_requirements": []
+  },
+  {
+    "profile_id": "P004",
+    "scenario": "Chemotherapy with self-reported nausea",
+    "age": 37,
+    "diagnosis_context": "adult_oncology",
+    "treatment_phase": "chemotherapy_infusion",
+    "known_sensitivities": [],
+    "current_symptoms": [
+      "nausea"
+    ],
+    "content_avoidances": [],
+    "preferred_genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "accessibility_requirements": []
+  },
+  {
+    "profile_id": "P005",
+    "scenario": "Cancer treatment with reported concentration difficulty",
+    "age": 46,
+    "diagnosis_context": "adult_oncology",
+    "treatment_phase": "active_treatment",
+    "known_sensitivities": [],
+    "current_symptoms": [
+      "concentration_difficulty"
+    ],
+    "content_avoidances": [],
+    "preferred_genres": [
+      "Science Fiction",
+      "Drama",
+      "Mystery"
+    ],
+    "accessibility_requirements": []
+  },
+  {
+    "profile_id": "P006",
+    "scenario": "Blood transfusion without reported symptoms",
+    "age": 34,
+    "diagnosis_context": "hematology",
+    "treatment_phase": "blood_transfusion",
+    "known_sensitivities": [],
+    "current_symptoms": [],
+    "content_avoidances": [],
+    "preferred_genres": [
+      "Drama",
+      "Comedy",
+      "Family"
+    ],
+    "accessibility_requirements": []
+  },
+  {
+    "profile_id": "P007",
+    "scenario": "Iron infusion with severe fatigue",
+    "age": 27,
+    "diagnosis_context": "iron_deficiency",
+    "treatment_phase": "iv_iron_infusion",
+    "known_sensitivities": [],
+    "current_symptoms": [
+      "severe_fatigue"
+    ],
+    "content_avoidances": [],
+    "preferred_genres": [
+      "Family",
+      "Comedy"
+    ],
+    "accessibility_requirements": []
+  },
+  {
+    "profile_id": "P008",
+    "scenario": "IBD biologic infusion, avoids medical procedure imagery",
+    "age": 32,
+    "diagnosis_context": "inflammatory_bowel_disease",
+    "treatment_phase": "biologic_infusion",
+    "known_sensitivities": [],
+    "current_symptoms": [],
+    "content_avoidances": [
+      "medical_procedure",
+      "medical_care"
+    ],
+    "preferred_genres": [
+      "Drama",
+      "Adventure"
+    ],
+    "accessibility_requirements": []
+  },
+  {
+    "profile_id": "P009",
+    "scenario": "Rheumatology biologic infusion, no symptom restrictions",
+    "age": 54,
+    "diagnosis_context": "inflammatory_arthritis",
+    "treatment_phase": "biologic_infusion",
+    "known_sensitivities": [],
+    "current_symptoms": [],
+    "content_avoidances": [],
+    "preferred_genres": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "accessibility_requirements": []
+  },
+  {
+    "profile_id": "P010",
+    "scenario": "MS infusion with cognitive difficulty and captions needed",
+    "age": 42,
+    "diagnosis_context": "multiple_sclerosis",
+    "treatment_phase": "ocrelizumab_infusion",
+    "known_sensitivities": [],
+    "current_symptoms": [
+      "concentration_difficulty"
+    ],
+    "content_avoidances": [],
+    "preferred_genres": [
+      "Animation",
+      "Drama"
+    ],
+    "accessibility_requirements": [
+      "subtitles"
+    ]
+  },
+  {
+    "profile_id": "P011",
+    "scenario": "IVIG infusion, light-sensitive migraine but no seizure trigger",
+    "age": 38,
+    "diagnosis_context": "immune_neurological_condition",
+    "treatment_phase": "ivig_infusion",
+    "known_sensitivities": [
+      "light_sensitivity"
+    ],
+    "current_symptoms": [],
+    "content_avoidances": [],
+    "preferred_genres": [
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "accessibility_requirements": []
+  },
+  {
+    "profile_id": "P012",
+    "scenario": "Sickle-cell pain episode, short planned viewing window",
+    "age": 24,
+    "diagnosis_context": "sickle_cell_disease",
+    "treatment_phase": "pain_management",
+    "known_sensitivities": [],
+    "current_symptoms": [
+      "pain"
+    ],
+    "content_avoidances": [],
+    "preferred_genres": [
+      "Comedy",
+      "Animation",
+      "Action"
+    ],
+    "accessibility_requirements": []
+  },
+  {
+    "profile_id": "P013",
+    "scenario": "Vestibular migraine with nausea and visual-motion sensitivity",
+    "age": 30,
+    "diagnosis_context": "vestibular_migraine",
+    "treatment_phase": "symptom_flare",
+    "known_sensitivities": [
+      "light_sensitivity",
+      "sound_sensitivity",
+      "visual_motion_sensitivity"
+    ],
+    "current_symptoms": [
+      "nausea"
+    ],
+    "content_avoidances": [],
+    "preferred_genres": [
+      "Drama",
+      "Mystery",
+      "Adventure"
+    ],
+    "accessibility_requirements": []
+  },
+  {
+    "profile_id": "P014",
+    "scenario": "Adolescent prefers to avoid bereavement and self-harm topics",
+    "age": 17,
+    "diagnosis_context": "general_wellbeing",
+    "treatment_phase": "outpatient_visit",
+    "known_sensitivities": [],
+    "current_symptoms": [],
+    "content_avoidances": [
+      "bereavement",
+      "self_harm",
+      "suicide"
+    ],
+    "preferred_genres": [
+      "Comedy",
+      "Romance",
+      "Drama"
+    ],
+    "accessibility_requirements": []
+  },
+  {
+    "profile_id": "P015",
+    "scenario": "Adult requiring audio description",
+    "age": 48,
+    "diagnosis_context": "visual_impairment",
+    "treatment_phase": "routine_outpatient_visit",
+    "known_sensitivities": [],
+    "current_symptoms": [],
+    "content_avoidances": [],
+    "preferred_genres": [
+      "Drama",
+      "Biography",
+      "Comedy"
+    ],
+    "accessibility_requirements": [
+      "audio_description"
+    ]
+  },
+  {
+    "profile_id": "P016",
+    "scenario": "No-constraint control",
+    "age": 29,
+    "diagnosis_context": "none",
+    "treatment_phase": "none",
+    "known_sensitivities": [],
+    "current_symptoms": [],
+    "content_avoidances": [],
+    "preferred_genres": [
+      "Drama",
+      "Comedy",
+      "Adventure"
+    ],
+    "accessibility_requirements": []
+  }
+]
