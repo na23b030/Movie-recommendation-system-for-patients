@@ -18,8 +18,6 @@ We selected a deliberate mix of animated/family films, comedies, dramas, thrille
 
 The film metadata was compiled into `source_records.json` through manual curation and editorial summarization, with BBFC film classification entries as references for selected content-advice tags. Ratings were added when an identifiable published classification was located.
 
-CBFC kept the earlier `UA` category for releases certified before India introduced age-marked `UA 7+`, `UA 13+`, and `UA 16+` in October 2024. We retain each original rating rather than converting it to a newer category. The evidence file records the original language/version and distinguishes official certification lists from secondary reports. **A rating alone is not a clinical guarantee of suitability.**
-
 Content-warning tags are **selected positive manual mappings** from public film advice rather than exhaustive annotations. Plot complexity and threat/violence intensity estimates are subjective and assigned **low** confidence; they are not clinically tested. Some version and classification records differ from the intended playback version. Film runtimes are feature-only where supporting information distinguished them from a cinema program bundled with a short.
 
 Flashing content is recorded as follows:
@@ -38,6 +36,8 @@ Accessibility fields (`subtitles_available`, `audio_description_available`) are 
 - **Content-warning tags:** **66/72** have at least one positive mapped tag. Missing tags never prove absence of the corresponding theme.
 - **Subjective estimates:** 72/72 have plot complexity estimates, 44/72 have a violence-intensity estimate, and 47/72 have a threat-intensity estimate. They are low-confidence and should only contribute to soft personalization/comfort scoring.
 - **Accessibility:** 72/72 marked `unknown` for captions/subtitles and audio description; none is certified available for a specified platform/region/cut.
+
+**Ambiguities:** BBFC often classifies feature releases, trailers, home-media cuts and screenings with shorts separately. The evidence CSV retains the reviewed `version_or_scope`. An official or community source link is not a guarantee that every editorial mapping is correct. A given title can differ between playback versions. The entire catalog was not independently reviewed scene by scene.
 
 **Runtimes:** The builder uses feature-only lengths for *Finding Nemo* (100 minutes) and *Encanto* (102 minutes, as listed by Disney), and the 92-minute home-entertainment feature of *Up*, rather than longer screening-program listings that include accompanying shorts. These choices are documented in source record fields and evidence.
 
