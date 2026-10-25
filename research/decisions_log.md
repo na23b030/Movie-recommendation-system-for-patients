@@ -22,21 +22,33 @@ Initial research review — 11:11 AM IST
 Detailed research review — 11:55 AM IST
 
 4. Pediatric patients and age suitability
+
 Researched: Stanford Children's Health and Children's Wisconsin entertainment guidelines.
+
 The hospital entertainment guidelines discuss restrictions on potentially frightening, violent, or distressing themes in children's entertainment activities.
+
 Decision: Include age ratings, violence, frightening scenes, and sensitive themes in our movie features. Hospital entertainment guidelines are not movie-specific, so our filtering decisions will need separate justification.
+
 Sources: Stanford Children's Health, Children's Wisconsin
 
 5. Migraine and sensory sensitivities
+
 Researched: NHS guidance on migraine and vertigo.
+
 Migraine can involve sensitivity to light and sound, nausea, and dizziness. This made me consider movie characteristics beyond genre and runtime.
+
 Decision: Explore sudden loud sounds, flashing scenes, and intense camera movement as additional features. The connection between these movie features and patient comfort is an inference, not a direct clinical recommendation.
+
 Sources: [NHS – Migraine](https://www.nhs.uk/conditions/migraine/), [NHS – Vertigo](https://www.nhs.uk/conditions/vertigo/)
 
 6. Emotional sensitivity
+
 Researched: Hospital entertainment guidelines and BBFC content classifications.
+
 BBFC records include information about violence, threat, and distressing themes. However, patients may respond differently to emotionally intense content.
+
 Decision: Include content-warning tags and allow patients to specify themes they want to avoid. We should not automatically assume that patients undergoing treatment only want light-hearted movies.
+
 Source: BBFC
 
 7. Accessibility
