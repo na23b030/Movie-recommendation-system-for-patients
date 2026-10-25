@@ -17,9 +17,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/paddington",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Paddington 2",
@@ -29,7 +34,7 @@
     "bbfc_url": "https://www.bbfc.co.uk/release/paddington-2-q29sbgvjdglvbjpwwc0zotc2nzq",
     "short_premise": "Paddington searches for a stolen pop-up book.",
     "original_language": "English",
-    "flashing_status": "unknown",
+    "flashing_status": "none",
     "evidenced_tags": [
       "threat"
     ],
@@ -41,7 +46,12 @@
     "notes": "",
     "age_rating": "PG",
     "rating_system": "BBFC",
-    "age_rating_source": "https://player.bfi.org.uk/rentals/film/watch-paddington-2-2017-online"
+    "age_rating_source": "https://player.bfi.org.uk/rentals/film/watch-paddington-2-2017-online",
+    "flashing_source": "https://www.doesthedogdie.com/media/14599",
+    "flashing_method": "community_reported_no_flashes",
+    "flashing_confidence": "low",
+    "flashing_notes": "0 yes / 6 no user reports; non-report is not certification of trigger-free playback.",
+    "runtime_source": ""
   },
   {
     "title": "Toy Story",
@@ -51,7 +61,7 @@
     "bbfc_url": "https://www.bbfc.co.uk/release/toy-story-q29sbgvjdglvbjpwwc0zndq0mjc",
     "short_premise": "Two toys learn to cooperate after rivalry.",
     "original_language": "English",
-    "flashing_status": "unknown",
+    "flashing_status": "confirmed_present",
     "evidenced_tags": [
       "violence",
       "threat"
@@ -64,13 +74,18 @@
     "notes": "",
     "age_rating": "G",
     "rating_system": "MPA",
-    "age_rating_source": "https://www.rottentomatoes.com/m/toy_story"
+    "age_rating_source": "https://www.rottentomatoes.com/m/toy_story",
+    "flashing_source": "https://www.doesthedogdie.com/media/12405",
+    "flashing_method": "community_positive_report",
+    "flashing_confidence": "low",
+    "flashing_notes": "3 yes; reported lightning flashes with scene timestamp; not evaluated against clinical flash threshold.",
+    "runtime_source": ""
   },
   {
     "title": "Finding Nemo",
     "release_year": 2003,
     "genres": "Animation;Adventure;Family",
-    "runtime_minutes": 107,
+    "runtime_minutes": 100,
     "bbfc_url": "https://www.bbfc.co.uk/release/finding-nemo-q29sbgvjdglvbjpwwc0znjmwndm",
     "short_premise": "A clownfish crosses the ocean searching for his son.",
     "original_language": "English",
@@ -83,11 +98,16 @@
     "threat_intensity": "mild",
     "complexity_estimate": "simple",
     "annotated_version": "2013 UK 2D cinema entry (includes short)",
-    "runtime_basis": "BBFC 2013 2D cinema",
+    "runtime_basis": "Feature only; BBFC screening programme includes accompanying short",
     "notes": "",
     "age_rating": "G",
     "rating_system": "MPA",
-    "age_rating_source": "https://www.rottentomatoes.com/m/finding_nemo"
+    "age_rating_source": "https://www.rottentomatoes.com/m/finding_nemo",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": "https://www.rottentomatoes.com/m/finding_nemo"
   },
   {
     "title": "Coco",
@@ -111,7 +131,12 @@
     "notes": "",
     "age_rating": "PG",
     "rating_system": "MPA",
-    "age_rating_source": "https://www.rottentomatoes.com/m/coco_2017"
+    "age_rating_source": "https://www.rottentomatoes.com/m/coco_2017",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Inside Out 2",
@@ -121,7 +146,7 @@
     "bbfc_url": "https://www.bbfc.co.uk/release/inside-out-2-q29sbgvjdglvbjpwwc0xmde3njay",
     "short_premise": "Riley navigates new emotions during adolescence.",
     "original_language": "English",
-    "flashing_status": "unknown",
+    "flashing_status": "confirmed_present",
     "evidenced_tags": [
       "emotional_distress",
       "threat",
@@ -135,7 +160,12 @@
     "notes": "",
     "age_rating": "PG",
     "rating_system": "MPA",
-    "age_rating_source": "https://www.rottentomatoes.com/m/inside_out_2"
+    "age_rating_source": "https://www.rottentomatoes.com/m/inside_out_2",
+    "flashing_source": "https://www.doesthedogdie.com/media/932175",
+    "flashing_method": "community_positive_report",
+    "flashing_confidence": "medium",
+    "flashing_notes": "47 yes reports plus descriptive comment; not evaluated against clinical flash threshold.",
+    "runtime_source": ""
   },
   {
     "title": "Moana",
@@ -157,7 +187,12 @@
     "notes": "",
     "age_rating": "PG",
     "rating_system": "MPA",
-    "age_rating_source": "https://www.rottentomatoes.com/m/moana_2016"
+    "age_rating_source": "https://www.rottentomatoes.com/m/moana_2016",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "The Wild Robot",
@@ -181,7 +216,12 @@
     "notes": "Flashing notice explicitly listed for 2024 2D version; other cuts not automatically covered.",
     "age_rating": "PG",
     "rating_system": "MPA",
-    "age_rating_source": "https://www.rottentomatoes.com/m/the_wild_robot"
+    "age_rating_source": "https://www.rottentomatoes.com/m/the_wild_robot",
+    "flashing_source": "https://www.bbfc.co.uk/release/the-wild-robot-q29sbgvjdglvbjpwwc0xmde5odiy",
+    "flashing_method": "explicit_BBFC_flashing_warning",
+    "flashing_confidence": "high",
+    "flashing_notes": "Classification advice identifies flashing/flickering imagery for at least one listed version.",
+    "runtime_source": ""
   },
   {
     "title": "Kiki's Delivery Service",
@@ -201,9 +241,14 @@
     "annotated_version": "2026 UK 2D cinema version",
     "runtime_basis": "BBFC 2026 2D cinema",
     "notes": "Flashing evidence refers to the listed 2026 2D re-release, not necessarily all releases.",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "G",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/kikis_delivery_service",
+    "flashing_source": "https://www.bbfc.co.uk/release/kikis-delivery-service-q29sbgvjdglvbjpwwc00otgzmjy",
+    "flashing_method": "explicit_BBFC_flashing_warning",
+    "flashing_confidence": "high",
+    "flashing_notes": "Classification advice identifies flashing/flickering imagery for at least one listed version.",
+    "runtime_source": ""
   },
   {
     "title": "Spirited Away",
@@ -226,7 +271,12 @@
     "notes": "",
     "age_rating": "PG",
     "rating_system": "MPA",
-    "age_rating_source": "https://www.rottentomatoes.com/m/spirited_away"
+    "age_rating_source": "https://www.rottentomatoes.com/m/spirited_away",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "The Lego Movie",
@@ -249,7 +299,12 @@
     "notes": "",
     "age_rating": "PG",
     "rating_system": "MPA",
-    "age_rating_source": "https://www.rottentomatoes.com/m/the_lego_movie"
+    "age_rating_source": "https://www.rottentomatoes.com/m/the_lego_movie",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Ratatouille",
@@ -259,7 +314,7 @@
     "bbfc_url": "https://www.bbfc.co.uk/release/ratatouille-q29sbgvjdglvbjpwwc0znjkzmju",
     "short_premise": "A culinary-minded rat helps a young chef in Paris.",
     "original_language": "English",
-    "flashing_status": "unknown",
+    "flashing_status": "confirmed_present",
     "evidenced_tags": [
       "violence",
       "vomiting"
@@ -272,7 +327,12 @@
     "notes": "Vomiting content advice is documented for this home-entertainment listing.",
     "age_rating": "G",
     "rating_system": "MPA",
-    "age_rating_source": "https://www.rottentomatoes.com/m/ratatouille"
+    "age_rating_source": "https://www.rottentomatoes.com/m/ratatouille",
+    "flashing_source": "https://www.doesthedogdie.com/media/10993",
+    "flashing_method": "community_positive_report",
+    "flashing_confidence": "medium",
+    "flashing_notes": "community scene alert describes mild lightning flashes; not evaluated against clinical flash threshold.",
+    "runtime_source": ""
   },
   {
     "title": "WALL-E",
@@ -295,13 +355,18 @@
     "notes": "",
     "age_rating": "G",
     "rating_system": "MPA",
-    "age_rating_source": "https://www.rottentomatoes.com/m/wall_e"
+    "age_rating_source": "https://www.rottentomatoes.com/m/wall_e",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Encanto",
     "release_year": 2021,
     "genres": "Animation;Fantasy;Musical;Family",
-    "runtime_minutes": 109,
+    "runtime_minutes": 102,
     "bbfc_url": "https://www.bbfc.co.uk/release/encanto-q29sbgvjdglvbjpwwc01mziwntc",
     "short_premise": "A young woman seeks to save her magical family home.",
     "original_language": "English",
@@ -315,11 +380,16 @@
     "threat_intensity": "mild",
     "complexity_estimate": "simple",
     "annotated_version": "2021 UK 2D cinema version with short",
-    "runtime_basis": "BBFC 2021 2D cinema",
+    "runtime_basis": "Official Disney feature duration (2021)",
     "notes": "Flashing notice appears on 2021 cinema version; 109-minute classification includes a short.",
     "age_rating": "PG",
     "rating_system": "MPA",
-    "age_rating_source": "https://www.rottentomatoes.com/m/encanto_2021"
+    "age_rating_source": "https://www.rottentomatoes.com/m/encanto_2021",
+    "flashing_source": "https://www.bbfc.co.uk/release/encanto-q29sbgvjdglvbjpwwc01mziwntc",
+    "flashing_method": "explicit_BBFC_flashing_warning",
+    "flashing_confidence": "high",
+    "flashing_notes": "Classification advice identifies flashing/flickering imagery for at least one listed version.",
+    "runtime_source": "https://movies.disney.com/encanto"
   },
   {
     "title": "Shaun the Sheep Movie",
@@ -340,9 +410,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/shaun_the_sheep_movie",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Luca",
@@ -366,7 +441,12 @@
     "notes": "",
     "age_rating": "PG",
     "rating_system": "MPA",
-    "age_rating_source": "https://static.rottentomatoes.com/m/luca_2021"
+    "age_rating_source": "https://static.rottentomatoes.com/m/luca_2021",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Sing",
@@ -388,7 +468,12 @@
     "notes": "",
     "age_rating": "PG",
     "rating_system": "MPA",
-    "age_rating_source": "https://www.rottentomatoes.com/m/sing_2016"
+    "age_rating_source": "https://www.rottentomatoes.com/m/sing_2016",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "A Shaun the Sheep Movie: Farmageddon",
@@ -398,7 +483,7 @@
     "bbfc_url": "https://www.bbfc.co.uk/release/a-shaun-the-sheep-movie-farmageddon-q29sbgvjdglvbjpwwc00otc0ntq",
     "short_premise": "An alien arrives at a farm and needs help.",
     "original_language": "English",
-    "flashing_status": "unknown",
+    "flashing_status": "confirmed_present",
     "evidenced_tags": [
       "threat"
     ],
@@ -408,9 +493,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "G",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/a_shaun_the_sheep_movie_farmageddon",
+    "flashing_source": "https://www.doesthedogdie.com/media/41474",
+    "flashing_method": "community_positive_report",
+    "flashing_confidence": "low",
+    "flashing_notes": "2 yes reports describe bright spaceship sequence; not evaluated against clinical flash threshold.",
+    "runtime_source": ""
   },
   {
     "title": "The Snail and the Whale",
@@ -430,9 +520,18 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "Short film; intentionally included to test very short runtimes.",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "U",
+    "rating_system": "BBFC",
+    "age_rating_source": "https://hpph.co.uk/films/the-snail-and-the-whale",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": "",
+    "age_rating_confidence": "medium",
+    "age_rating_method": "UK_cinema_listing_of_BBFC_certificate",
+    "age_rating_scope": "2019 27-minute animated short; UK cinema presentation",
+    "age_rating_notes": "Independent UK cinema film listing labels this specific 27-minute short U; the classification page identifies 2020 physical-media and 2021 cinema versions. Certificate is for that short, not a double bill. Secondary listing, hence medium confidence."
   },
   {
     "title": "The Boy and the Heron",
@@ -455,9 +554,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG-13",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/the_boy_and_the_heron",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "The Sound of Music",
@@ -477,9 +581,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "G",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/sound_of_music/reviews?type=top_critics",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Little Women",
@@ -489,7 +598,7 @@
     "bbfc_url": "https://www.bbfc.co.uk/release/little-women-q29sbgvjdglvbjpwwc00otyymtq",
     "short_premise": "Four sisters build lives amid family obligations.",
     "original_language": "English",
-    "flashing_status": "unknown",
+    "flashing_status": "none",
     "evidenced_tags": [
       "bereavement",
       "threat"
@@ -500,9 +609,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/little_women_2019",
+    "flashing_source": "https://www.doesthedogdie.com/media/21906",
+    "flashing_method": "community_reported_no_flashes",
+    "flashing_confidence": "low",
+    "flashing_notes": "0 yes / 24 no user reports; non-report is not certification of trigger-free playback.",
+    "runtime_source": ""
   },
   {
     "title": "La La Land",
@@ -512,7 +626,7 @@
     "bbfc_url": "https://www.bbfc.co.uk/release/la-la-land-q29sbgvjdglvbjpwwc00mzqxmzg",
     "short_premise": "Two artists navigate love and ambition in Los Angeles.",
     "original_language": "English",
-    "flashing_status": "unknown",
+    "flashing_status": "confirmed_present",
     "evidenced_tags": [],
     "violence_intensity": "unknown",
     "threat_intensity": "unknown",
@@ -522,7 +636,12 @@
     "notes": "",
     "age_rating": "PG-13",
     "rating_system": "MPA",
-    "age_rating_source": "https://www.rottentomatoes.com/m/la_la_land"
+    "age_rating_source": "https://www.rottentomatoes.com/m/la_la_land",
+    "flashing_source": "https://www.doesthedogdie.com/media/12823",
+    "flashing_method": "community_positive_report",
+    "flashing_confidence": "medium",
+    "flashing_notes": "23 yes reports describe strobe band sequence; not evaluated against clinical flash threshold.",
+    "runtime_source": ""
   },
   {
     "title": "Free Willy",
@@ -542,9 +661,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/free_willy",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "The Martian",
@@ -554,7 +678,7 @@
     "bbfc_url": "https://www.bbfc.co.uk/release/the-martian-q29sbgvjdglvbjpwwc0zotkzmdq",
     "short_premise": "An astronaut survives alone on Mars while rescue is planned.",
     "original_language": "English",
-    "flashing_status": "unknown",
+    "flashing_status": "confirmed_present",
     "evidenced_tags": [
       "medical_procedure",
       "injury_detail",
@@ -568,7 +692,12 @@
     "notes": "",
     "age_rating": "PG-13",
     "rating_system": "MPA",
-    "age_rating_source": "https://www.rottentomatoes.com/m/the_martian"
+    "age_rating_source": "https://www.rottentomatoes.com/m/the_martian",
+    "flashing_source": "https://www.doesthedogdie.com/media/12004",
+    "flashing_method": "community_positive_report",
+    "flashing_confidence": "medium",
+    "flashing_notes": "10 yes reports with descriptions of interview and storm flashes; not evaluated against clinical flash threshold.",
+    "runtime_source": ""
   },
   {
     "title": "Hidden Figures",
@@ -588,9 +717,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/hidden_figures",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Chef",
@@ -608,9 +742,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "R",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/chef_2014",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Julie & Julia",
@@ -628,9 +767,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG-13",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/julie_and_julia",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "The King's Speech",
@@ -650,9 +794,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "Therapy scenes are speech treatment; not surgery.",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "R",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/the_kings_speech",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "The Pursuit of Happyness",
@@ -672,9 +821,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG-13",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/pursuit_of_happyness",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "The Secret Life of Walter Mitty",
@@ -695,9 +849,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/the_secret_life_of_walter_mitty_2013",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "The Imitation Game",
@@ -719,9 +878,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG-13",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/the_imitation_game",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Dune: Part Two",
@@ -746,7 +910,12 @@
     "notes": "",
     "age_rating": "PG-13",
     "rating_system": "MPA",
-    "age_rating_source": "https://www.rottentomatoes.com/m/dune_part_two"
+    "age_rating_source": "https://www.rottentomatoes.com/m/dune_part_two",
+    "flashing_source": "https://www.bbfc.co.uk/release/dune-part-two-q29sbgvjdglvbjpwwc0xmdezmtm2",
+    "flashing_method": "explicit_BBFC_flashing_warning",
+    "flashing_confidence": "high",
+    "flashing_notes": "Classification advice identifies flashing/flickering imagery for at least one listed version.",
+    "runtime_source": ""
   },
   {
     "title": "Knives Out",
@@ -770,7 +939,12 @@
     "notes": "",
     "age_rating": "PG-13",
     "rating_system": "MPA",
-    "age_rating_source": "https://www.rottentomatoes.com/m/knives_out"
+    "age_rating_source": "https://www.rottentomatoes.com/m/knives_out",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Inception",
@@ -792,9 +966,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG-13",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/inception",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Everything Everywhere All at Once",
@@ -815,9 +994,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "R",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/everything_everywhere_all_at_once",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Oppenheimer",
@@ -841,7 +1025,12 @@
     "notes": "",
     "age_rating": "R",
     "rating_system": "MPA",
-    "age_rating_source": "https://www.rottentomatoes.com/m/oppenheimer_2023"
+    "age_rating_source": "https://www.rottentomatoes.com/m/oppenheimer_2023",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Interstellar",
@@ -863,9 +1052,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG-13",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/interstellar_2014",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Barbie",
@@ -887,7 +1081,12 @@
     "notes": "",
     "age_rating": "PG-13",
     "rating_system": "MPA",
-    "age_rating_source": "https://www.rottentomatoes.com/m/barbie"
+    "age_rating_source": "https://www.rottentomatoes.com/m/barbie",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Glass Onion: A Knives Out Mystery",
@@ -909,9 +1108,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG-13",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/glass_onion_a_knives_out_mystery",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "The Theory of Everything",
@@ -933,9 +1137,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG-13",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/the_theory_of_everything_2014",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "A Beautiful Mind",
@@ -956,9 +1165,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG-13",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/beautiful_mind",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "The Fault in Our Stars",
@@ -968,7 +1182,7 @@
     "bbfc_url": "https://www.bbfc.co.uk/release/the-fault-in-our-stars-q29sbgvjdglvbjpwwc00nzgxnti",
     "short_premise": "Two teenagers with cancer build a relationship.",
     "original_language": "English",
-    "flashing_status": "unknown",
+    "flashing_status": "none",
     "evidenced_tags": [
       "illness",
       "bereavement",
@@ -980,9 +1194,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG-13",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/the_fault_in_our_stars",
+    "flashing_source": "https://www.doesthedogdie.com/media/19358",
+    "flashing_method": "community_reported_no_flashes",
+    "flashing_confidence": "low",
+    "flashing_notes": "0 yes / 22 no user reports; non-report is not certification of trigger-free playback.",
+    "runtime_source": ""
   },
   {
     "title": "The Whale",
@@ -1004,9 +1223,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "R",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/the_whale_2022",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "A Quiet Place",
@@ -1029,9 +1253,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG-13",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/a_quiet_place_2018",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "A Quiet Place: Day One",
@@ -1053,9 +1282,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG-13",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/a_quiet_place_day_one",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "The Flash",
@@ -1079,9 +1313,14 @@
     "annotated_version": "2023 UK 2D cinema version",
     "runtime_basis": "BBFC 2023 2D cinema",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG-13",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/the_flash_2023",
+    "flashing_source": "https://www.bbfc.co.uk/release/the-flash-q29sbgvjdglvbjpwwc0xmdexmjy2",
+    "flashing_method": "explicit_BBFC_flashing_warning",
+    "flashing_confidence": "high",
+    "flashing_notes": "Classification advice identifies flashing/flickering imagery for at least one listed version.",
+    "runtime_source": ""
   },
   {
     "title": "John Wick",
@@ -1105,7 +1344,12 @@
     "notes": "",
     "age_rating": "R",
     "rating_system": "MPA",
-    "age_rating_source": "https://www.rottentomatoes.com/m/john_wick"
+    "age_rating_source": "https://www.rottentomatoes.com/m/john_wick",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "John Wick: Chapter 4",
@@ -1127,9 +1371,14 @@
     "annotated_version": "2023 UK 2D cinema version",
     "runtime_basis": "BBFC 2023 2D cinema",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "R",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/john_wick_chapter_4/reviews",
+    "flashing_source": "https://www.bbfc.co.uk/release/john-wick-chapter-4-q29sbgvjdglvbjpwwc0xmda4mdc3",
+    "flashing_method": "explicit_BBFC_flashing_warning",
+    "flashing_confidence": "high",
+    "flashing_notes": "Classification advice identifies flashing/flickering imagery for at least one listed version.",
+    "runtime_source": ""
   },
   {
     "title": "Joker",
@@ -1151,9 +1400,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "R",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/joker_2019",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Get Out",
@@ -1178,7 +1432,12 @@
     "notes": "",
     "age_rating": "R",
     "rating_system": "MPA",
-    "age_rating_source": "https://www.rottentomatoes.com/m/get_out"
+    "age_rating_source": "https://www.rottentomatoes.com/m/get_out",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Doctor Strange in the Multiverse of Madness",
@@ -1200,9 +1459,14 @@
     "annotated_version": "2022 UK ScreenX cinema entry",
     "runtime_basis": "BBFC 2022 ScreenX cinema",
     "notes": "Flashing evidenced in ScreenX cinema advice; scope must be respected.",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG-13",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/doctor_strange_in_the_multiverse_of_madness",
+    "flashing_source": "https://www.bbfc.co.uk/release/doctor-strange-in-the-multiverse-of-madness-q29sbgvjdglvbjpwwc0xmdaynzc2",
+    "flashing_method": "explicit_BBFC_flashing_warning",
+    "flashing_confidence": "high",
+    "flashing_notes": "Classification advice identifies flashing/flickering imagery for at least one listed version.",
+    "runtime_source": ""
   },
   {
     "title": "The Batman",
@@ -1224,9 +1488,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG-13",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/the_batman",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Spider-Man: Across the Spider-Verse",
@@ -1248,9 +1517,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/spider_man_across_the_spider_verse",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Dangal",
@@ -1270,9 +1544,18 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "U",
+    "rating_system": "CBFC",
+    "age_rating_source": "https://www.bollywoodhungama.com/news/bollywood/newsbreak-aamir-khans-dangal-gets-clear-u-certificate-cbfc/",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": "",
+    "age_rating_confidence": "medium",
+    "age_rating_method": "press_report_of_CBFC_certificate",
+    "age_rating_scope": "CBFC original Hindi cinema release, 2016",
+    "age_rating_notes": "News report published on 6 December 2016 states the original release received U from CBFC. Later streaming-platform U/A 7+ display is not substituted for the original certificate."
   },
   {
     "title": "3 Idiots",
@@ -1294,9 +1577,18 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "UA",
+    "rating_system": "CBFC",
+    "age_rating_source": "https://www.bollywoodhungama.com/movie/3-idiots/cast/",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": "",
+    "age_rating_confidence": "medium",
+    "age_rating_method": "trade_site_transcription_of_CBFC_certificate",
+    "age_rating_scope": "CBFC original Hindi cinema release; 10 December 2009; CIL/2/164/2009-MUM",
+    "age_rating_notes": "Bollywood Hungama lists the 2009 original CBFC certificate number and U/A category. Stored as UA, not retrospectively changed to post-2024 age-marked categories."
   },
   {
     "title": "12th Fail",
@@ -1318,9 +1610,18 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "U",
+    "rating_system": "CBFC",
+    "age_rating_source": "https://www.cbfcindia.gov.in/cbfcAdmin/assets/pdf/Films_certified_2023.pdf",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": "",
+    "age_rating_confidence": "high",
+    "age_rating_method": "official_CBFC_certification_list",
+    "age_rating_scope": "CBFC Hindi theatrical original; 6 October 2023; DIL/1/96/2023-MUM",
+    "age_rating_notes": "Original Hindi theatrical certificate, not the Tamil dubbed entry in the same CBFC list; official 2023 list row 557 identifies U."
   },
   {
     "title": "English Vinglish",
@@ -1338,9 +1639,18 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "U",
+    "rating_system": "CBFC",
+    "age_rating_source": "https://tv.apple.com/in/movie/english-vinglish/umc.cmc.31kdcfaas9ad4bne343viugin",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": "",
+    "age_rating_confidence": "medium",
+    "age_rating_method": "Indian_platform_catalogue_age_certificate",
+    "age_rating_scope": "India-region listing of original 2012 film",
+    "age_rating_notes": "Indian Apple TV film information displays U. The provider listing is not an original scanned CBFC certificate, and is not conflated with Netflix platform age guidance."
   },
   {
     "title": "Taare Zameen Par",
@@ -1361,9 +1671,18 @@
     "annotated_version": "2007 UK 2D cinema version",
     "runtime_basis": "BBFC 2007 2D cinema",
     "notes": "Do not use BBFC overview 467m: that entry includes film plus audio commentary.",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "U",
+    "rating_system": "CBFC",
+    "age_rating_source": "https://timesofindia.indiatimes.com/entertainment/hindi/movie-details/taare-zameen-par/movieshow/61294032.cms",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": "",
+    "age_rating_confidence": "medium",
+    "age_rating_method": "Indian_film_listing_certificate",
+    "age_rating_scope": "Original Hindi 2007 theatrical title (not Sitaare Zameen Par 2025)",
+    "age_rating_notes": "Times of India movie listing records U for the original 2007 film; secondary source."
   },
   {
     "title": "96",
@@ -1381,9 +1700,18 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "U",
+    "rating_system": "CBFC",
+    "age_rating_source": "https://timesofindia.indiatimes.com/entertainment/tamil/movie-details/96/movieshow/61984122.cms",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": "",
+    "age_rating_confidence": "medium",
+    "age_rating_method": "Indian_film_listing_certificate",
+    "age_rating_scope": "Original Tamil 2018 theatrical film 96",
+    "age_rating_notes": "Times of India movie listing explicitly reports U certificate for 2018 Tamil romance 96; secondary source."
   },
   {
     "title": "Laapataa Ladies",
@@ -1403,54 +1731,18 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
-  },
-  {
-    "title": "Zero Se Restart",
-    "release_year": 2024,
-    "genres": "Documentary;Drama",
-    "runtime_minutes": 88,
-    "bbfc_url": "https://www.bbfc.co.uk/release/zero-se-restart-q29sbgvjdglvbjpwwc0xmdi2odq1",
-    "short_premise": "A behind-the-scenes documentary about a Hindi drama film.",
-    "original_language": "Hindi",
-    "flashing_status": "unknown",
-    "evidenced_tags": [
-      "violence",
-      "illness"
-    ],
-    "violence_intensity": "moderate",
-    "threat_intensity": "unknown",
-    "complexity_estimate": "simple",
-    "annotated_version": "BBFC film overview",
-    "runtime_basis": "BBFC overview",
-    "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
-  },
-  {
-    "title": "Chef (Hindi)",
-    "release_year": 2017,
-    "genres": "Comedy;Drama",
-    "runtime_minutes": 133,
-    "bbfc_url": "https://www.bbfc.co.uk/release/chef-q29sbgvjdglvbjpwwc0zote1mjk",
-    "short_premise": "A chef returns to India and opens a food truck.",
-    "original_language": "Hindi",
-    "flashing_status": "unknown",
-    "evidenced_tags": [
-      "violence"
-    ],
-    "violence_intensity": "mild",
-    "threat_intensity": "unknown",
-    "complexity_estimate": "simple",
-    "annotated_version": "BBFC film overview",
-    "runtime_basis": "BBFC overview",
-    "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "UA",
+    "rating_system": "CBFC",
+    "age_rating_source": "https://cbfcindia.gov.in/cbfcAdmin/assets/pdf/List_of_feature_films_certified_2024.pdf",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": "",
+    "age_rating_confidence": "high",
+    "age_rating_method": "official_CBFC_certification_list",
+    "age_rating_scope": "CBFC original Hindi theatrical; 25 January 2024; DIL/2/27/2024-MUM",
+    "age_rating_notes": "CBFC 2024 official list row 30 records UA for original Hindi version. Later Bengali/Marathi dubbed releases show UA 13+ and do not replace original 2024 Hindi certificate. A streaming platform may independently show age-marked guidance."
   },
   {
     "title": "Asthram",
@@ -1473,156 +1765,18 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
-  },
-  {
-    "title": "Emergency",
-    "release_year": 2025,
-    "genres": "Drama;History",
-    "runtime_minutes": 145,
-    "bbfc_url": "https://www.bbfc.co.uk/release/emergency-q29sbgvjdglvbjpwwc0xmdizntiw",
-    "short_premise": "A political drama depicts a turbulent period in Indian history.",
-    "original_language": "Hindi",
-    "flashing_status": "confirmed_present",
-    "evidenced_tags": [
-      "medical_procedure",
-      "discrimination",
-      "injury_detail",
-      "violence",
-      "threat"
-    ],
-    "violence_intensity": "strong",
-    "threat_intensity": "strong",
-    "complexity_estimate": "dense",
-    "annotated_version": "BBFC film overview",
-    "runtime_basis": "BBFC overview",
-    "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
-  },
-  {
-    "title": "Blast",
-    "release_year": 2026,
-    "genres": "Thriller;Action",
-    "runtime_minutes": 142,
-    "bbfc_url": "https://www.bbfc.co.uk/release/blast-q29sbgvjdglvbjpwwc0xmte3ndi3",
-    "short_premise": "An action thriller involving violent confrontations.",
-    "original_language": "Tamil",
-    "flashing_status": "confirmed_present",
-    "evidenced_tags": [
-      "violence",
-      "injury_detail",
-      "threat"
-    ],
-    "violence_intensity": "strong",
-    "threat_intensity": "strong",
-    "complexity_estimate": "moderate",
-    "annotated_version": "2026 UK 2D VOD/streaming entry",
-    "runtime_basis": "BBFC 2026 VOD/streaming",
-    "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
-  },
-  {
-    "title": "Ash",
-    "release_year": 2025,
-    "genres": "Science Fiction;Horror",
-    "runtime_minutes": 95,
-    "bbfc_url": "https://www.bbfc.co.uk/release/ash-q29sbgvjdglvbjpwwc0xmdi5ntcz",
-    "short_premise": "An astronaut faces disturbing events on a remote planet.",
-    "original_language": "English",
-    "flashing_status": "confirmed_present",
-    "evidenced_tags": [
-      "violence",
-      "injury_detail",
-      "threat"
-    ],
-    "violence_intensity": "strong",
-    "threat_intensity": "strong",
-    "complexity_estimate": "moderate",
-    "annotated_version": "BBFC film overview",
-    "runtime_basis": "BBFC overview",
-    "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
-  },
-  {
-    "title": "Turn Me On",
-    "release_year": 2024,
-    "genres": "Science Fiction;Romance;Comedy",
-    "runtime_minutes": 99,
-    "bbfc_url": "https://www.bbfc.co.uk/release/turn-me-on-q29sbgvjdglvbjpwwc0xmdi0nda0",
-    "short_premise": "A couple questions emotion-suppressing social rules.",
-    "original_language": "English",
-    "flashing_status": "confirmed_present",
-    "evidenced_tags": [
-      "illness",
-      "threat"
-    ],
-    "violence_intensity": "unknown",
-    "threat_intensity": "mild",
-    "complexity_estimate": "moderate",
-    "annotated_version": "BBFC film overview",
-    "runtime_basis": "BBFC overview",
-    "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
-  },
-  {
-    "title": "My Fault: London",
-    "release_year": 2025,
-    "genres": "Romance;Drama",
-    "runtime_minutes": 119,
-    "bbfc_url": "https://www.bbfc.co.uk/release/my-fault-london-q29sbgvjdglvbjpwwc0xmdi0mdk0",
-    "short_premise": "A young woman navigates a difficult new relationship.",
-    "original_language": "English",
-    "flashing_status": "confirmed_present",
-    "evidenced_tags": [
-      "domestic_abuse",
-      "injury_detail",
-      "threat"
-    ],
-    "violence_intensity": "moderate",
-    "threat_intensity": "moderate",
-    "complexity_estimate": "moderate",
-    "annotated_version": "BBFC film overview",
-    "runtime_basis": "BBFC overview",
-    "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
-  },
-  {
-    "title": "Black Flies",
-    "release_year": 2023,
-    "genres": "Drama",
-    "runtime_minutes": 125,
-    "bbfc_url": "https://www.bbfc.co.uk/release/black-flies-q29sbgvjdglvbjpwwc0xmde5odc2",
-    "short_premise": "Emergency responders confront difficult incidents.",
-    "original_language": "English",
-    "flashing_status": "confirmed_present",
-    "evidenced_tags": [
-      "medical_procedure",
-      "injury_detail",
-      "violence",
-      "suicide",
-      "illness"
-    ],
-    "violence_intensity": "strong",
-    "threat_intensity": "moderate",
-    "complexity_estimate": "moderate",
-    "annotated_version": "BBFC film overview",
-    "runtime_basis": "BBFC overview",
-    "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "A",
+    "rating_system": "CBFC",
+    "age_rating_source": "https://timesofindia.indiatimes.com/entertainment/tamil/movie-details/asthram/movieshow/118329419.cms",
+    "flashing_source": "https://www.bbfc.co.uk/release/asthram-q29sbgvjdglvbjpwwc0xmdi4ntgw",
+    "flashing_method": "explicit_BBFC_flashing_warning",
+    "flashing_confidence": "high",
+    "flashing_notes": "Classification advice identifies flashing/flickering imagery for at least one listed version.",
+    "runtime_source": "",
+    "age_rating_confidence": "medium",
+    "age_rating_method": "Indian_film_listing_certificate",
+    "age_rating_scope": "Original Tamil 2025 crime thriller (Shaam; Aravind Rajagopal)",
+    "age_rating_notes": "Times of India movie listing records A. Do not confuse this with a different older Malayalam work also called Asthram."
   },
   {
     "title": "The Dark Knight",
@@ -1643,9 +1797,14 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG-13",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/the_dark_knight",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": "",
+    "runtime_source": ""
   },
   {
     "title": "Little Women (1994)",
@@ -1655,7 +1814,7 @@
     "bbfc_url": "https://www.bbfc.co.uk/release/little-women-q29sbgvjdglvbjpwwc0zmtq5ote",
     "short_premise": "A family of sisters grows through loss and change.",
     "original_language": "English",
-    "flashing_status": "unknown",
+    "flashing_status": "none",
     "evidenced_tags": [],
     "violence_intensity": "unknown",
     "threat_intensity": "unknown",
@@ -1663,8 +1822,240 @@
     "annotated_version": "BBFC film overview",
     "runtime_basis": "BBFC overview",
     "notes": "",
-    "age_rating": "unknown",
-    "rating_system": "unknown",
-    "age_rating_source": ""
+    "age_rating": "PG",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/1058517-little_women",
+    "flashing_source": "https://www.doesthedogdie.com/media/17864",
+    "flashing_method": "community_reported_no_flashes",
+    "flashing_confidence": "low",
+    "flashing_notes": "0 yes / 5 no user reports; non-report is not certification of trigger-free playback.",
+    "runtime_source": ""
+  },
+  {
+    "title": "Inside Out",
+    "release_year": 2015,
+    "original_language": "English",
+    "genres": "Animation;Family;Comedy;Fantasy",
+    "runtime_minutes": 95,
+    "short_premise": "Emotions inside an eleven-year-old girl adjust to a difficult family move.",
+    "bbfc_url": "https://www.bbfc.co.uk/release/inside-out-q29sbgvjdglvbjpwwc0zote1nja",
+    "evidenced_tags": [
+      "emotional_distress",
+      "threat"
+    ],
+    "violence_intensity": "very_mild",
+    "threat_intensity": "very_mild",
+    "complexity_estimate": "moderate",
+    "flashing_status": "confirmed_present",
+    "flashing_source": "https://www.doesthedogdie.com/media/10092",
+    "flashing_method": "crowd_report_verified_scene",
+    "flashing_confidence": "medium",
+    "flashing_notes": "Community scene alert describes flashing around 24-26 minutes; not an independently certified photosensitivity test.",
+    "age_rating": "PG",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/inside_out_2015",
+    "runtime_source": "https://www.bbfc.co.uk/release/inside-out-q29sbgvjdglvbjpwwc0zote1nja",
+    "annotated_version": "Published BBFC film advice; exact playback cut not fully matched",
+    "runtime_basis": "BBFC feature film overview approximately 95m; screening program may include a short.",
+    "notes": ""
+  },
+  {
+    "title": "Up",
+    "release_year": 2009,
+    "original_language": "English",
+    "genres": "Animation;Family;Comedy;Adventure",
+    "runtime_minutes": 92,
+    "short_premise": "A grieving widower flies his home toward South America and befriends a young explorer.",
+    "bbfc_url": "https://www.bbfc.co.uk/release/up-q29sbgvjdglvbjpwwc00mja2nde",
+    "evidenced_tags": [
+      "bereavement",
+      "threat"
+    ],
+    "violence_intensity": "mild",
+    "threat_intensity": "mild",
+    "complexity_estimate": "simple",
+    "flashing_status": "confirmed_present",
+    "flashing_source": "https://www.doesthedogdie.com/media/12736",
+    "flashing_method": "community_positive_with_scene_description",
+    "flashing_confidence": "medium",
+    "flashing_notes": "Community contributors describe photography flashes, sparks and lightning; report is not a clinical threshold assessment.",
+    "age_rating": "PG",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/up/reviews/all-audience",
+    "runtime_source": "https://www.bbfc.co.uk/release/up-q29sbgvjdglvbjpwwc00mja2nde",
+    "annotated_version": "Published BBFC film advice; exact playback cut not fully matched",
+    "runtime_basis": "BBFC feature-only home entertainment listing 92m 8s; screening programme includes Partly Cloudy short.",
+    "notes": ""
+  },
+  {
+    "title": "Frozen",
+    "release_year": 2013,
+    "original_language": "English",
+    "genres": "Animation;Family;Fantasy;Musical;Adventure",
+    "runtime_minutes": 102,
+    "short_premise": "A princess searches for her sister to end a magical winter.",
+    "bbfc_url": "https://www.bbfc.co.uk/release/frozen-q29sbgvjdglvbjpwwc0zotqzmzk",
+    "evidenced_tags": [
+      "threat",
+      "violence"
+    ],
+    "violence_intensity": "mild",
+    "threat_intensity": "mild",
+    "complexity_estimate": "simple",
+    "flashing_status": "unknown",
+    "age_rating": "PG",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/frozen_2013",
+    "runtime_source": "https://www.rottentomatoes.com/m/frozen_2013",
+    "notes": "BBFC also lists an event programme including an additional short; the feature-only runtime here comes from Rotten Tomatoes.",
+    "annotated_version": "Published BBFC film advice; exact playback cut not fully matched",
+    "runtime_basis": "Feature runtime from linked publication",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": ""
+  },
+  {
+    "title": "Finding Dory",
+    "release_year": 2016,
+    "original_language": "English",
+    "genres": "Animation;Family;Comedy;Adventure",
+    "runtime_minutes": 97,
+    "short_premise": "A forgetful blue tang travels to find the family from whom she was separated.",
+    "bbfc_url": "https://www.bbfc.co.uk/release/finding-dory-q29sbgvjdglvbjpwwc00mzq5ndm",
+    "evidenced_tags": [
+      "threat",
+      "bereavement"
+    ],
+    "violence_intensity": "very_mild",
+    "threat_intensity": "mild",
+    "complexity_estimate": "simple",
+    "flashing_status": "unknown",
+    "age_rating": "PG",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/finding_dory/reviews",
+    "runtime_source": "https://www.rottentomatoes.com/m/finding_dory/reviews",
+    "annotated_version": "Published BBFC film advice; exact playback cut not fully matched",
+    "runtime_basis": "Feature runtime from linked publication",
+    "notes": "",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": ""
+  },
+  {
+    "title": "Zootopia",
+    "release_year": 2016,
+    "original_language": "English",
+    "genres": "Animation;Family;Comedy;Adventure;Mystery",
+    "runtime_minutes": 108,
+    "short_premise": "A rabbit police officer and a fox uncover a conspiracy in an animal metropolis.",
+    "bbfc_url": "https://www.bbfc.co.uk/release/zootropolis-q29sbgvjdglvbjpwwc00mzi0mdy",
+    "evidenced_tags": [
+      "threat",
+      "violence",
+      "discrimination"
+    ],
+    "violence_intensity": "mild",
+    "threat_intensity": "mild",
+    "complexity_estimate": "moderate",
+    "flashing_status": "unknown",
+    "age_rating": "PG",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/zootopia",
+    "runtime_source": "https://www.rottentomatoes.com/m/zootopia",
+    "annotated_version": "Published BBFC film advice; exact playback cut not fully matched",
+    "runtime_basis": "Feature runtime from linked publication",
+    "notes": "",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": ""
+  },
+  {
+    "title": "The Addams Family 2",
+    "release_year": 2021,
+    "original_language": "English",
+    "genres": "Animation;Family;Comedy;Adventure",
+    "runtime_minutes": 93,
+    "short_premise": "The Addams family takes a strange road trip to reconnect.",
+    "bbfc_url": "https://www.bbfc.co.uk/release/the-addams-family-2-q29sbgvjdglvbjpwwc01mze2mdm",
+    "evidenced_tags": [
+      "threat",
+      "violence",
+      "rude_humour"
+    ],
+    "violence_intensity": "mild",
+    "threat_intensity": "mild",
+    "complexity_estimate": "simple",
+    "flashing_status": "confirmed_present",
+    "flashing_source": "https://www.bbfc.co.uk/release/the-addams-family-2-q29sbgvjdglvbjpwwc01mze2mdm",
+    "flashing_method": "explicit_BBFC_flashing_warning",
+    "flashing_confidence": "high",
+    "flashing_notes": "BBFC explicitly documents flashing/flickering content on listed feature versions.",
+    "age_rating": "PG",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/the_addams_family_2",
+    "runtime_source": "https://www.rottentomatoes.com/m/the_addams_family_2",
+    "annotated_version": "Published BBFC film advice; exact playback cut not fully matched",
+    "runtime_basis": "Feature runtime from linked publication",
+    "notes": ""
+  },
+  {
+    "title": "Transformers One",
+    "release_year": 2024,
+    "original_language": "English",
+    "genres": "Animation;Action;Adventure;Sci-Fi",
+    "runtime_minutes": 104,
+    "short_premise": "Two young robots discover the truth about their planet before becoming rivals.",
+    "bbfc_url": "https://www.bbfc.co.uk/release/transformers-one-q29sbgvjdglvbjpwwc0xmde5odg1",
+    "evidenced_tags": [
+      "violence",
+      "threat",
+      "injury_detail"
+    ],
+    "violence_intensity": "moderate",
+    "threat_intensity": "moderate",
+    "complexity_estimate": "moderate",
+    "flashing_status": "confirmed_present",
+    "flashing_source": "https://www.bbfc.co.uk/release/transformers-one-q29sbgvjdglvbjpwwc0xmde5odg1",
+    "flashing_method": "explicit_BBFC_flashing_warning",
+    "flashing_confidence": "high",
+    "flashing_notes": "BBFC feature classification contains an explicit flashing/flickering warning.",
+    "age_rating": "PG",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/transformers_one",
+    "runtime_source": "https://www.rottentomatoes.com/m/transformers_one",
+    "annotated_version": "Published BBFC film advice; exact playback cut not fully matched",
+    "runtime_basis": "Feature runtime from linked publication",
+    "notes": ""
+  },
+  {
+    "title": "The Incredibles",
+    "release_year": 2004,
+    "original_language": "English",
+    "genres": "Animation;Family;Comedy;Adventure;Action",
+    "runtime_minutes": 115,
+    "short_premise": "A retired superhero family returns to confront a dangerous robot menace.",
+    "bbfc_url": "https://www.bbfc.co.uk/release/the-incredibles-q29sbgvjdglvbjpwwc0znty5mze",
+    "evidenced_tags": [
+      "violence",
+      "threat"
+    ],
+    "violence_intensity": "mild",
+    "threat_intensity": "mild",
+    "complexity_estimate": "simple",
+    "flashing_status": "unknown",
+    "age_rating": "PG",
+    "rating_system": "MPA",
+    "age_rating_source": "https://www.rottentomatoes.com/m/the_incredibles",
+    "runtime_source": "https://www.rottentomatoes.com/m/the_incredibles",
+    "annotated_version": "Published BBFC film advice; exact playback cut not fully matched",
+    "runtime_basis": "Feature runtime from linked publication",
+    "notes": "",
+    "flashing_source": "",
+    "flashing_method": "",
+    "flashing_confidence": "unknown",
+    "flashing_notes": ""
   }
 ]
