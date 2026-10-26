@@ -41,6 +41,8 @@ I chose **semantic content matching + deterministic rules**, rather than having 
 3. **Adjust comfort:** Subtract visible, evidence-confidence-adjusted soft penalties from the separate taste score.
 4. **Add limited variety:** Apply MMR to eligible candidates, then **re-check hard exclusions** before returning results. If no meaningful or adequately supported match remains, return fewer than five—or zero.
 
+**Why this approach instead of alternatives?** TF-IDF relies on word overlap and may miss similar meanings expressed differently, whereas semantic embeddings can capture these relationships. Collaborative filtering was unsuitable because patient interaction history was unavailable. An LLM or RAG approach would introduce additional complexity and dependencies without being necessary for deterministic, auditable safety filtering. Semantic relevance has not yet been validated using human preference labels.
+
 ### Scoring and retrieval logic 
 
 The recommendation system combines semantic similarity and genre matching to calculate a taste score. The weights depend on the information provided by the patient.
@@ -86,7 +88,6 @@ The 0.88 weight prioritizes relevance, while 0.12 encourages variety. MMR operat
 
 **Weight and Threshold Justification:** Semantic similarity receives greater weight when free-text interests are available, while genre matching is prioritized for genre-only preferences. For movies without an exact genre match, a conservative semantic threshold (cosine similarity ≥ 0.27, with a 0.05 margin above the catalog median when applicable) helps prevent weak recommendations. These weights and thresholds are engineering heuristics, not clinically validated or optimized using real patient preference data.
 
-**Why this approach instead of alternatives?** TF-IDF relies on word overlap and may miss similar meanings expressed differently, whereas semantic embeddings can capture these relationships. Collaborative filtering was unsuitable because patient interaction history was unavailable. An LLM or RAG approach would introduce additional complexity and dependencies without being necessary for deterministic, auditable safety filtering. Semantic relevance has not yet been validated using human preference labels.
 
 ## 4. Evaluation: 
 
