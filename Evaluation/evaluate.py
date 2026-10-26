@@ -1,9 +1,3 @@
-"""Re-run Task 5 safety/personalization audit on 15 synthetic + 1 control.
-
-Usage from repository root: python evaluation/evaluate.py
-The real semantic encoder is also exercised by tests/test_system.py when installed;
-synthetic profiles have no interest_text, so this script evaluates genre fallback.
-"""
 from __future__ import annotations
 
 import sys
