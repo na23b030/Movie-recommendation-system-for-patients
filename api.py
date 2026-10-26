@@ -1,5 +1,7 @@
+"""
 POST /recommendations: ONLY movie details and a concise reason.
-POST /recommendations/audit: Task 6 technical trace, never intended for patients.
+POST /recommendations/audit: Technical trace, never intended for patients, used for detailed analysis of the outputs
+"""
 from __future__ import annotations
 
 from fastapi import Body, FastAPI, HTTPException
