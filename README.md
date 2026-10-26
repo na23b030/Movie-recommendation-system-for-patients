@@ -65,3 +65,23 @@ For the no-constraint control, no movie may be excluded; the API says so instead
 | `api.py` | The recommendation, audit and health endpoints. |
 | `requirements.txt` | Packages needed to run the project. |
 | `README.md` | Project overview and usage instructions. |
+
+### Files Inside Each Folder
+
+| Folder | File | Purpose |
+|---|---|---|
+| `dataset/` | `movies.json` | Stores 72 movies with genres, ratings, descriptions and sensitivity tags. |
+| | `patient_profiles.json` | Contains 16 synthetic patient profiles for testing. |
+| | `build_dataset.py` | Builds and validates the movie dataset. |
+| | `annotation_evidence.csv` | Records evidence supporting movie content annotations. |
+| | `source_records.json` | Stores references to movie information sources. |
+| | `DATASET_NOTES.md` | Explains data collection, assumptions and missing information. |
+| `rules/` | `rules.json` | Defines 16 hard-exclusion and soft-penalty rules. |
+| | `Rules_notes.md` | Explains rule decisions and limitations. |
+| | `Rule_sources.md` | Provides sources supporting the rules. |
+| `recommender/` | `semantic.py` | Converts movie descriptions and patient interests into semantic embeddings. |
+| | `engine.py` | Applies safety rules, ranks movies and improves diversity. |
+| | `__init__.py` | Makes the folder a Python package. |
+| `evaluation/` | `evaluate.py` | Tests recommendations and checks safety-rule enforcement. |
+| | `EVALUATION.md` | Summarizes evaluation results and limitations. |
+| `research/` | `decisions_log.md` | Records research findings and development decisions. |
