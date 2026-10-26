@@ -125,10 +125,8 @@ Open **http://127.0.0.1:8000/docs**. Use **`POST /recommendations`** with an **i
 
 | Folder | File(s) | Purpose |
 |---|---|---|
-| `dataset/` | `movies.json`, `patient_profiles.json` | Movie annotations and synthetic test inputs. |
-| | `source_records.json`, `annotation_evidence.csv` | Film-level citations, methods and confidence. |
-| | `build_dataset.py`, `DATASET_NOTES.md` | Rebuild the catalog and explain data gaps. |
-| `rules/` | `rules.json`, `Rules_notes.md`, `Rule_sources.md` | Rules, their limitations and source links. |
+| `dataset/` | `movies.json`, `patient_profiles.json`, `source_records.json`, `annotation_evidence.csv`, `build_dataset.py`, `DATASET_NOTES.md` | Movie annotations, synthetic patient profiles, source evidence, dataset construction and documentation of data gaps. |
+| `rules/` | `rules.json`, `Rules_notes.md`, `Rule_sources.md` | Rules, their logic, limitations and source links. |
 | `recommender/` | `engine.py`, `semantic.py`, `__init__.py` | Safety/ranking engine, embedding model and Python package marker. |
 | `evaluation/` | `evaluate.py`, `EVALUATION.md` | Reproducible evaluation and its short summary. |
 | `research/` | `decisions_log.md` | Research and architecture decisions. |
