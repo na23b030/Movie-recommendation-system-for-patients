@@ -84,4 +84,19 @@ Found: Genre, runtime, age ratings, and content warnings can support recommendat
 Decision: Prioritize basic movie information, age suitability, flashing warnings, violence, distressing themes, and runtime. Consider manually annotating plot complexity and pacing using consistent criteria.
 
 Missing data: Keep uncertain sensitivity tags as unknown rather than assuming the content is safe. Record the tagging method, source, and confidence level. Features with insufficient evidence will not be used for hard safety decisions.
+## Finalized rules based on research - 5:30 PM IST
+Reviewed public guidelines to derive patient suitability rules.
 
+Separated rules into hard exclusions and soft penalties.
+
+Documented sources, assumptions, and limitations
+
+## Recommendation Approaches — 7:30 PM IST
+### Initial recommendation approach
+Implemented a content-based recommendation system using genre matching and TF-IDF similarity to compare patient preferences with movie descriptions, while keeping safety rules separate.
+
+### Identified Limitation
+Found that TF-IDF depends heavily on word overlap and may fail to recognize movies with similar meanings but different wording. Decided to improve personalization using semantic embeddings.
+
+## Revised Architecture -(3:30 PM IST) 26 October 2026 
+Replaced TF-IDF with a pretrained Sentence Transformer (`all-MiniLM-L6-v2`) for semantic similarity, retaining genre matching, all 16 safety rules, soft penalties, and MMR diversity reranking. Removed the optional LLM layer to keep the system simpler and deterministic.
