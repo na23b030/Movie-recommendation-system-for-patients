@@ -32,7 +32,7 @@ The system has **16 rules: 9 hard exclusions and 7 soft penalties**. **Three are
 
 The full conditions, weights and justifications are in [`rules.json`](rules/rules.json), with [rule notes](rules/Rules_notes.md), [source links](rules/Rule_sources.md) and a [research log](research/decisions_log.md).
 
-## 3. Recommendation method: why this architecture?
+## 3. Recommendation method: 
 
 I chose **semantic content matching + deterministic rules**, rather than having an LLM decide safety:
 
@@ -88,7 +88,7 @@ The 0.88 weight prioritizes relevance, while 0.12 encourages variety. MMR operat
 
 **Why this approach instead of alternatives?** TF-IDF relies on word overlap and may miss similar meanings expressed differently, whereas semantic embeddings can capture these relationships. Collaborative filtering was unsuitable because patient interaction history was unavailable. An LLM or RAG approach would introduce additional complexity and dependencies without being necessary for deterministic, auditable safety filtering. Semantic relevance has not yet been validated using human preference labels.
 
-## 4. Evaluation: what was actually tested?
+## 4. Evaluation: 
 
 The reproducible evaluation used **15 synthetic profiles and one no-constraint control**: **60 movies returned, zero observed hard-rule violations**, four profiles with no recommendations. Four examples were manually reviewed to check that pediatric, adult and avoidance-driven profiles do not all receive the same generic list. MMR reduced mean genre overlap from **0.646 to 0.597**; lower overlap indicates variety, **not** better safety or accuracy.
 
