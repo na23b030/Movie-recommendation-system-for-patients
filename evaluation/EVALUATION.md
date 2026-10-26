@@ -1,33 +1,35 @@
 # Evaluation Summary
 
-Tested **72 movies** with **15 synthetic patient profiles and one no-constraint control** using `python evaluation/evaluate.py`.
+Run `python evaluation/evaluate.py` to reproduce these numbers from the included movies, rules and patient profiles.
 
 ## Results
 
 | Measure | Result |
 |---|---:|
-| Recommendations returned | **60** |
-| Hard-rule violations observed | **0** |
-| Profiles with five recommendations | **12/16** |
-| Profiles with no recommendations | **4/16** |
-| Rules | **9 hard, 7 soft** |
-| Rule provenance | **3 sourced, 13 inferred** |
+| Movies / profiles | 72 / 16 (15 synthetic + 1 control) |
+| Recommendations returned | 60 |
+| Hard-rule violations | **0 observed** |
+| Profiles receiving 5 films | 12/16 |
+| Profiles receiving none | 4/16 |
+| Rules | 9 hard, 7 soft |
+| Evidence classification | 3 sourced, 13 inferred |
 
-Hard exclusions are applied before ranking and checked again after diversity reranking. Soft penalties change the rank but **never override a hard exclusion**.
+Every returned title was checked against the hard rules. Exclusions occur before ranking and are rechecked after diversity selection; soft penalties affect scores only.
 
-## Four manual checks
+## Four manual inspections
 
-- **P002 (child):** *Toy Story* and *Ratatouille* remained relevant after age-related exclusions.
-- **P005 (concentration difficulty):** Complex movies were penalized rather than automatically banned.
-- **P009 (adult thriller preference):** Recommendations differed clearly from the child's list.
-- **P014 (avoids bereavement/self-harm):** 22 tagged movies were excluded while preferences still influenced results.
+- **P002 — child:** Toy Story, Inside Out 2, Ratatouille. Child-appropriate genres remain after age exclusions.
+- **P005 — concentration difficulty:** The Martian, Knives Out, Interstellar. Dense plots can rank lower, but are not automatically banned.
+- **P009 — adult thriller preference:** Joker, Asthram, Knives Out. Adult selections differ from the child profile.
+- **P014 — bereavement/self-harm avoidances:** Julie & Julia, La La Land, Chef. 22 tagged titles excluded while remaining preferences still matter.
 
-Diversity reranking reduced average genre overlap from **0.646 to 0.597**; this measures variety, not safety or recommendation accuracy.
+## Variety and limitations
 
-## Limitations
+- Mean genre overlap **0.597 with MMR vs. 0.646 without**; this measures variety, not accuracy or safety.
+- These profiles contain **genre preferences only**: this run does **not** test live pretrained semantic embeddings. Run `python -m recommender.semantic` separately, then validate meaningful free-text examples.
+- Age/content evidence is version-dependent and incomplete; untagged content is not proven absent. There is **no clinician review, real patient outcome or ground-truth recommendation label**.
+- **Weak rule R-02:** unknown flashing is treated as a veto for a photosensitive viewer—an inferred, deliberately precautionary choice that can return zero titles.
+- **Weak rule R-14:** subjective threat intensity only creates an inferred soft penalty; its weight is not clinically calibrated.
+- **Weak rule R-04:** the under-17 MPA R policy does not model guardian accompaniment, so it is stricter than the rating system.
 
-These tests used **genre preferences only**, so they **do not verify live semantic-embedding inference**. Content warnings and accessibility information are incomplete; unknown does not mean safe. Most thresholds are inferred, and no real patient outcomes or clinician review were available. Some profiles appropriately received no recommendations.
-
-**Reproduce:** `python evaluation/evaluate.py`  
-**Semantic model smoke test:** `python -m recommender.semantic`  
-**Evidence and rule details:** [`../dataset/DATASET_NOTES.md`](../dataset/DATASET_NOTES.md) and [`../rules/rules.json`](../rules/rules.json).
+Further sources and provenance: [`../rules/Rule_sources.md`](../rules/Rule_sources.md), [`../rules/Rules_notes.md`](../rules/Rules_notes.md), and [`../dataset/DATASET_NOTES.md`](../dataset/DATASET_NOTES.md).
