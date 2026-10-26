@@ -41,11 +41,52 @@ I chose **semantic content matching + deterministic rules**, rather than having 
 3. **Adjust comfort:** Subtract visible, evidence-confidence-adjusted soft penalties from the separate taste score.
 4. **Add limited variety:** Apply MMR to eligible candidates, then **re-check hard exclusions** before returning results. If no meaningful or adequately supported match remains, return fewer than five—or zero.
 
+### Scoring and retrieval logic 
 
-**Why not TF-IDF?** The earlier word-overlap approach could miss related meanings expressed using different words. Semantic embeddings address that limitation, although actual semantic relevance has **not yet been evaluated with human labels**. Collaborative filtering was unsuitable because no patient watch/click history was supplied. RAG or an LLM was unnecessary: it could add external dependencies without improving the deterministic, auditable safety veto.
+The recommendation system combines semantic similarity and genre matching to calculate a taste score. The weights depend on the information provided by the patient.
 
+| Patient Preferences | Semantic Similarity | Genre Coverage | Genre Focus |
+|---|---:|---:|---:|
+| Free-text interests + known genres | 0.72 | 0.22 | 0.06 |
+| Known genres only | 0.00 | 0.80 | 0.20 |
+| Known + unknown genres | 0.60 | 0.32 | 0.08 |
+| Only free-text interests or unknown genres | 1.00 | 0.00 | 0.00 |
 
-**Why these weights?** With text and known genres, taste weighting is **72% semantic similarity, 22% preferred-genre coverage and 6% genre focus** to prioritize the description while retaining explicit preferences. For genre-only requests it is **80% coverage / 20% focus**. Unrecognized genre labels can be represented as semantic intent; the code documents the alternative weights. A conservative semantic gate (cosine score at least **0.27**, plus **0.05** above catalog median when applicable) limits weak forced matches. MMR weights final relevance **0.88** and variety **0.12**, deliberately keeping diversity secondary. **All weights and cutoffs are engineering starting points, not clinically calibrated or optimized against preference data.**
+**1. Taste Score**
+
+$$
+\text{Taste Score} = w_s S + w_c C + w_f F
+$$
+
+Where:
+- **S:** Semantic cosine similarity between patient interests and movie descriptions.
+- **C:** Proportion of preferred genres matched by the movie.
+- **F:** Proportion of the movie's genres matching patient preferences.
+- **w_s, w_c, w_f:** Weights shown in the table above.
+
+**2. Final Score with Soft Penalties**
+
+$$
+\text{Final Score} = \text{Taste Score} + \sum_i p_i c_i
+$$
+
+Where:
+- **p_i:** Negative penalty assigned to a triggered soft rule.
+- **c_i:** Confidence multiplier for the corresponding movie annotation.
+
+Confidence multipliers are 1.0 (high), 0.85 (medium), 0.5 (low), and 0 (unknown). Soft penalties reduce ranking scores without automatically excluding movies.
+
+**3. Diversity Reranking (MMR)**
+
+$$
+\text{MMR Score} = 0.88 \times \text{Final Score} - 0.12 \times \text{Maximum Similarity to Selected Movies}
+$$
+
+The 0.88 weight prioritizes relevance, while 0.12 encourages variety. MMR operates only on eligible movies and cannot override hard exclusions.
+
+**Weight and Threshold Justification:** Semantic similarity receives greater weight when free-text interests are available, while genre matching is prioritized for genre-only preferences. For movies without an exact genre match, a conservative semantic threshold (cosine similarity ≥ 0.27, with a 0.05 margin above the catalog median when applicable) helps prevent weak recommendations. These weights and thresholds are engineering heuristics, not clinically validated or optimized using real patient preference data.
+
+**Why this approach instead of alternatives?** TF-IDF relies on word overlap and may miss similar meanings expressed differently, whereas semantic embeddings can capture these relationships. Collaborative filtering was unsuitable because patient interaction history was unavailable. An LLM or RAG approach would introduce additional complexity and dependencies without being necessary for deterministic, auditable safety filtering. Semantic relevance has not yet been validated using human preference labels.
 
 ## 4. Evaluation: what was actually tested?
 
