@@ -1,9 +1,5 @@
-"""FastAPI: concise patient-facing movies plus a separate reviewer audit route.
-
 POST /recommendations: ONLY movie details and a concise reason.
 POST /recommendations/audit: Task 6 technical trace, never intended for patients.
-No LLM, external inference API, database, or patient persistence.
-"""
 from __future__ import annotations
 
 from fastapi import Body, FastAPI, HTTPException
