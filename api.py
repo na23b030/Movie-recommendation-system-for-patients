@@ -7,6 +7,9 @@ GET /health: catalog and rule counts.
 
 from __future__ import annotations
 
+import re
+from pathlib import Path
+
 from fastapi import Body, FastAPI, HTTPException
 
 from recommender.engine import load_default
@@ -19,6 +22,19 @@ app = FastAPI(
     description="Synthetic-patient demonstration, not a medical certification tool.",
 )
 engine = load_default()
+
+
+def _rule_source_urls() -> dict[str, str]:
+    """Reference URLs from the same human-readable source register as the rules."""
+    source_file = Path(__file__).resolve().parent / "rules" / "Rule_sources.md"
+    entries = re.findall(
+        r"\*\*(S\d+)\s+—\s+\[[^\]]+\]\((https?://[^)]+)\)",
+        source_file.read_text(encoding="utf-8"),
+    )
+    return dict(entries)
+
+
+RULE_SOURCE_URLS = _rule_source_urls()
 
 
 @app.get("/health")
@@ -142,6 +158,11 @@ def recommendations(profile: dict = Body(...)) -> dict:
             rule["rule_id"]: {
                 "justification_type": rule["justification_type"],
                 "source": rule["source"],
+                "source_urls": [
+                    RULE_SOURCE_URLS[source_id]
+                    for source_id in re.findall(r"S\d+", rule["source"])
+                    if source_id in RULE_SOURCE_URLS
+                ],
             }
             for rule in engine.rule_definitions
         },
