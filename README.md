@@ -6,7 +6,7 @@ A prototype that recommends **up to five movies** based on a patient's interests
 
 The dataset contains **72 curated movies** with genres, short descriptions, runtimes, age classifications and content-sensitivity tags. Film information and recorded content warnings were researched using film-specific [BBFC](https://www.bbfc.co.uk/) pages; individual source links are saved in [`dataset/source_records.json`](dataset/source_records.json).
 
-**Gaps are documented, not hidden:** only **22/72** films have separately sourced age classifications; flashing status is **unknown for 58/72**; and subtitle/audio-description availability has not been verified. Plot complexity and threat intensity are human estimates. A missing warning **does not mean** a movie is confirmed safe. Details: [`dataset/DATASET_NOTES.md`](dataset/DATASET_NOTES.md).
+**Gaps are documented:** only **22/72** films have separately sourced age classifications; flashing status is **unknown for 58/72**; and subtitle/audio-description availability has not been verified. Plot complexity and threat intensity are human estimates. A missing warning **does not mean** a movie is confirmed safe. Details: [`dataset/DATASET_NOTES.md`](dataset/DATASET_NOTES.md).
 
 ## 2. Where the rules came from
 
